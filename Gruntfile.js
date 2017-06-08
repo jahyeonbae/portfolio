@@ -10,7 +10,6 @@ module.exports = function(grunt) {
             port: 9000
         }
     }
-
     //less
 
     //watch
@@ -21,6 +20,7 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "uglify" task.
   //grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-serve');
+  grunt.loadNpmTasks('grunt-contrib-less');
 
   // Default task(s).
   grunt.registerTask('default', ['serve']);
