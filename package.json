@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jahyeonbae/portfolio#readme",
   "devDependencies": {
-    "grunt-cli": "^1.2.0"
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-serve": "^0.1.6"
   }
 }
