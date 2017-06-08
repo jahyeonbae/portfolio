@@ -9,10 +9,16 @@ module.exports = function(grunt) {
         options: {
             port: 9000
         }
-    }
+    },
     //less
 
+
     //watch
+    grunt.initConfig({
+         watch: {
+            files: ['**/*'],
+            tasks: ['jshint'],
+  },
 
 
   });
@@ -21,6 +27,7 @@ module.exports = function(grunt) {
   //grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-serve');
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
   grunt.registerTask('default', ['serve']);
