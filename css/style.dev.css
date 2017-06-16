@@ -1,0 +1,934 @@
+/* line 1, assets\less\common.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 5, assets\less\common.less */
+ul,
+li,
+ol {
+  list-style: none;
+}
+/* line 8, assets\less\common.less */
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 12, assets\less\common.less */
+img {
+  vertical-align: top;
+}
+/* line 2, assets\less\style.less */
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+/* line 6, assets\less\style.less */
+.wrap .main {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 10, assets\less\style.less */
+.wrap .main img {
+  width: 1920px;
+  position: absolute;
+  top: -680px;
+  z-index: -2;
+}
+/* line 16, assets\less\style.less */
+.wrap .main p {
+  border: 10px #8fd614 solid;
+  width: 350px;
+  height: 150px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  right: 760px;
+  top: 180px;
+  z-index: -1;
+}
+/* line 27, assets\less\style.less */
+.wrap .main p span {
+  display: inline-block;
+  padding: 10px;
+  color: #FFF;
+}
+/* line 35, assets\less\style.less */
+.wrap .second ul {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+/* line 40, assets\less\style.less */
+.wrap .second ul li[class^="s-sub"] {
+  width: 100%;
+}
+/* line 42, assets\less\style.less */
+.wrap .second ul li[class^="s-sub"] img {
+  width: 23.7%;
+  float: left;
+  padding: 10px;
+}
+/* line 48, assets\less\style.less */
+.wrap .second ul .s-sub1 {
+  position: relative;
+}
+/* line 50, assets\less\style.less */
+.wrap .second ul .s-sub1 .s_ve {
+  display: block;
+  color: #FFF;
+  font-size: 32px;
+  position: absolute;
+  top: 130px;
+  left: 7%;
+  text-transform: uppercase;
+}
+/* line 60, assets\less\style.less */
+.wrap .second ul .s-sub2 {
+  position: relative;
+}
+/* line 62, assets\less\style.less */
+.wrap .second ul .s-sub2 .s_fr {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 130px;
+  left: 34%;
+}
+/* line 72, assets\less\style.less */
+.wrap .second ul .s-sub3 {
+  position: relative;
+}
+/* line 74, assets\less\style.less */
+.wrap .second ul .s-sub3 .s_si {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 130px;
+  left: 57%;
+}
+/* line 84, assets\less\style.less */
+.wrap .second ul .s-sub4 {
+  position: relative;
+}
+/* line 86, assets\less\style.less */
+.wrap .second ul .s-sub4 .s_pr {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 130px;
+  left: 83%;
+}
+/* line 99, assets\less\style.less */
+.wrap .third ul {
+  background-color: #000;
+  height: 508px;
+}
+/* line 102, assets\less\style.less */
+.wrap .third ul li {
+  width: 40%;
+  float: left;
+}
+/* line 105, assets\less\style.less */
+.wrap .third ul li img {
+  width: 100%;
+  float: left;
+}
+/* line 109, assets\less\style.less */
+.wrap .third ul li p {
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+/* line 114, assets\less\style.less */
+.wrap .third ul li p:first-child {
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+}
+/* line 119, assets\less\style.less */
+.wrap .third ul li p:last-child {
+  font-size: 24px;
+  text-align: center;
+  color: #FFF;
+  display: inline-block;
+  margin-top: 30px;
+}
+/* line 129, assets\less\style.less */
+.wrap .farm-info {
+  height: 700px;
+}
+/* line 131, assets\less\style.less */
+.wrap .farm-info .title {
+  text-align: center;
+  position: relative;
+}
+/* line 134, assets\less\style.less */
+.wrap .farm-info .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 140, assets\less\style.less */
+.wrap .farm-info .title span {
+  display: block;
+}
+/* line 143, assets\less\style.less */
+.wrap .farm-info .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 147, assets\less\style.less */
+.wrap .farm-info .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 157, assets\less\style.less */
+.wrap .farm-info .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 169, assets\less\style.less */
+.wrap .farm-info .box {
+  background-color: #4A210B;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 170px;
+  left: 405px;
+}
+/* line 176, assets\less\style.less */
+.wrap .farm-info .box .fi_top {
+  width: 100%;
+}
+/* line 178, assets\less\style.less */
+.wrap .farm-info .box .fi_top img {
+  width: 160%;
+  position: absolute;
+  top: -150px;
+  left: -215px;
+}
+/* line 185, assets\less\style.less */
+.wrap .farm-info .box .fi_left {
+  width: 100%;
+}
+/* line 187, assets\less\style.less */
+.wrap .farm-info .box .fi_left img {
+  width: 170%;
+  position: absolute;
+  top: 165px;
+  left: -130px;
+}
+/* line 194, assets\less\style.less */
+.wrap .farm-info .box .fi_right {
+  width: 100%;
+}
+/* line 196, assets\less\style.less */
+.wrap .farm-info .box .fi_right img {
+  width: 150%;
+  position: absolute;
+  top: -55px;
+  left: 198px;
+}
+/* line 204, assets\less\style.less */
+.wrap .farm-info p {
+  display: inline-block;
+  width: 700px;
+  margin-left: 100px;
+  position: absolute;
+  top: 0px;
+  left: 550px;
+  font-size: 12px;
+  line-height: 200%;
+}
+/* line 216, assets\less\style.less */
+.wrap .pro-info .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 220, assets\less\style.less */
+.wrap .pro-info .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 226, assets\less\style.less */
+.wrap .pro-info .title span {
+  display: block;
+}
+/* line 229, assets\less\style.less */
+.wrap .pro-info .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 233, assets\less\style.less */
+.wrap .pro-info .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 243, assets\less\style.less */
+.wrap .pro-info .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 254, assets\less\style.less */
+.wrap .pro-info .pi {
+  position: relative;
+  top: 0px;
+  background-image: url('../images/pro-info1.png');
+  background-repeat: repeat;
+  background-size: 50%;
+  height: 400px;
+}
+/* line 261, assets\less\style.less */
+.wrap .pro-info .pi ul {
+  width: 100%;
+  height: 100%;
+}
+/* line 264, assets\less\style.less */
+.wrap .pro-info .pi ul li {
+  width: 25%;
+  float: left;
+}
+/* line 268, assets\less\style.less */
+.wrap .pro-info .pi ul .ve {
+  height: 400px;
+  background-color: rgba(44, 239, 67, 0.3);
+  position: absolute;
+  top: 0px;
+}
+/* line 274, assets\less\style.less */
+.wrap .pro-info .pi ul .fr {
+  height: 400px;
+  background-color: rgba(255, 245, 104, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 25%;
+}
+/* line 281, assets\less\style.less */
+.wrap .pro-info .pi ul .si {
+  height: 400px;
+  background-color: rgba(244, 111, 38, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+/* line 288, assets\less\style.less */
+.wrap .pro-info .pi ul .pr {
+  height: 400px;
+  background-color: rgba(137, 44, 225, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 75%;
+}
+/* line 297, assets\less\style.less */
+.wrap .pro-info .pro-sub {
+  width: 100%;
+  height: 700px;
+}
+/* line 300, assets\less\style.less */
+.wrap .pro-info .pro-sub .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 304, assets\less\style.less */
+.wrap .pro-info .pro-sub .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 310, assets\less\style.less */
+.wrap .pro-info .pro-sub .title span {
+  display: block;
+}
+/* line 313, assets\less\style.less */
+.wrap .pro-info .pro-sub .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 317, assets\less\style.less */
+.wrap .pro-info .pro-sub .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 327, assets\less\style.less */
+.wrap .pro-info .pro-sub .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 338, assets\less\style.less */
+.wrap .pro-info .pro-sub > img {
+  width: 40%;
+  margin: 30px 30px 30px 100px;
+  float: left;
+}
+/* line 361, assets\less\style.less */
+.wrap .pro-info .pro-sub .ps-sub ul li {
+  width: 15%;
+  float: left;
+  margin: 20px 10px 0 0;
+  padding: 10px;
+}
+/* line 366, assets\less\style.less */
+.wrap .pro-info .pro-sub .ps-sub ul li img {
+  width: 100%;
+  height: 200px;
+}
+/* line 370, assets\less\style.less */
+.wrap .pro-info .pro-sub .ps-sub ul li span {
+  display: block;
+  width: 300px;
+  text-align: center;
+  clear: left;
+  text-transform: capitalize;
+}
+/* line 384, assets\less\style.less */
+.wrap .recipe {
+  height: 700px;
+  widht: 100%;
+}
+/* line 387, assets\less\style.less */
+.wrap .recipe .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+/* line 391, assets\less\style.less */
+.wrap .recipe .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 397, assets\less\style.less */
+.wrap .recipe .title span {
+  display: block;
+}
+/* line 400, assets\less\style.less */
+.wrap .recipe .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 404, assets\less\style.less */
+.wrap .recipe .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 414, assets\less\style.less */
+.wrap .recipe .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 425, assets\less\style.less */
+.wrap .recipe .rec_box {
+  height: 600px;
+  background-image: url('../images/act.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: 150px 0;
+  position: relative;
+}
+/* line 432, assets\less\style.less */
+.wrap .recipe .rec_box li {
+  width: 250px;
+  height: 400px;
+  float: left;
+  position: relative;
+  left: 750px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+/* line 441, assets\less\style.less */
+.wrap .recipe .rec_box .rb_sub {
+  width: 1000px;
+  height: 380px;
+  background-color: #F36953;
+  position: absolute;
+  top: 50px;
+  left: 800px;
+}
+/* line 451, assets\less\style.less */
+.wrap .com {
+  height: 600px;
+  overflow: hidden;
+  background-image: url('../images/com.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+/* line 462, assets\less\style.less */
+.wrap .com h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #FFF;
+  position: absolute;
+  top: 100px;
+  left: 350px;
+}
+/* line 470, assets\less\style.less */
+.wrap .com img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+/* line 479, assets\less\style.less */
+.wrap .com .com_shadow {
+  height: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 0px;
+  z-index: -2;
+}
+/* line 486, assets\less\style.less */
+.wrap .com .com_shadow li {
+  margin-left: 20px;
+  border: 1px #f00 solid;
+  width: 400px;
+  height: 300px;
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 17%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 496, assets\less\style.less */
+.wrap .com .com_shadow li p {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 10px;
+}
+/* line 502, assets\less\style.less */
+.wrap .com .com_shadow li .cs_facel {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-image: url('../images/facel.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: -106px -4px;
+  position: relative;
+  top: 15%;
+  left: 5%;
+}
+/* line 515, assets\less\style.less */
+.wrap .com .com_shadow li .cs_facem {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-image: url('../images/facem.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 15%;
+  left: 5%;
+}
+/* line 527, assets\less\style.less */
+.wrap .com .com_shadow li .cs_faceb {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-image: url('../images/faceb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -19px 0px;
+  position: relative;
+  top: 15%;
+  left: 5%;
+}
+/* line 541, assets\less\style.less */
+.wrap .com .com_shadow p:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../images/qug.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 10px 0 10px;
+}
+/* line 593, assets\less\style.less */
+.wrap .blog {
+  background-image: url('../images/blog_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+/* line 594, assets\less\style.less */
+.wrap .blog .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+/* line 599, assets\less\style.less */
+.wrap .blog .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+/* line 604, assets\less\style.less */
+.wrap .blog .title span {
+  display: block;
+}
+/* line 607, assets\less\style.less */
+.wrap .blog .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 611, assets\less\style.less */
+.wrap .blog .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 100px;
+  left: 815px;
+}
+/* line 621, assets\less\style.less */
+.wrap .blog .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 100px;
+  left: 985px;
+}
+/* line 637, assets\less\style.less */
+.wrap .blog ul li {
+  height: 400px;
+  width: 300px;
+  padding: 10px;
+  float: left;
+  position: relative;
+  left: 469px;
+}
+/* line 644, assets\less\style.less */
+.wrap .blog ul li img {
+  width: 100%;
+  height: 200px;
+}
+/* line 648, assets\less\style.less */
+.wrap .blog ul li p {
+  width: 300px;
+  margin-top: 5px;
+}
+/* line 652, assets\less\style.less */
+.wrap .blog ul li .date {
+  font-weight: bold;
+  color: grey;
+  position: relative;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+/* line 659, assets\less\style.less */
+.wrap .blog ul li .b_title {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 20px;
+}
+/* line 664, assets\less\style.less */
+.wrap .blog ul li .read {
+  font-weight: bold;
+  color: #546A79;
+  margin-top: 10px;
+}
+/* line 669, assets\less\style.less */
+.wrap .blog ul li p.date:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  background-image: url('../images/chat.png');
+  background-repeat: no-repeat;
+}
+/* line 680, assets\less\style.less */
+.wrap .blog ul li p.date:before {
+  content: "5";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: -2px;
+  right: 8px;
+}
+/* line 690, assets\less\style.less */
+.wrap .blog ul li p.read:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin-top: 10px;
+  background-image: url('../images/plus.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 424px;
+  left: 94px;
+}
+/* line 1, assets\less\footer.less */
+.footer {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/footer_3.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+}
+/* line 8, assets\less\footer.less */
+.footer .f_left {
+  width: 400px;
+  height: 100%;
+  float: left;
+  margin-left: 100px;
+  position: relative;
+  top: 80px;
+  left: 200px;
+}
+/* line 16, assets\less\footer.less */
+.footer .f_left p {
+  color: #FFF;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+/* line 23, assets\less\footer.less */
+.footer .f_left li {
+  float: left;
+  padding: 5px 20px 5px 5px;
+}
+/* line 28, assets\less\footer.less */
+.footer .f_right {
+  margin-left: 800px;
+  height: 100%;
+  position: relative;
+  top: 80px;
+}
+/* line 34, assets\less\footer.less */
+.footer .f_right li {
+  float: left;
+  padding: 5px;
+  margin-right: 50px;
+  text-align: center;
+  width: 200px;
+}
+/* line 40, assets\less\footer.less */
+.footer .f_right li .s_mail {
+  width: 230px;
+  height: 30px;
+  white-space: normal;
+  background-color: #8fd614;
+  background-image: url('../images/sm.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+}
+/* line 49, assets\less\footer.less */
+.footer .f_right li .s_mail .sm_sub {
+  font-size: 12px;
+  background-color: #fff;
+  height: 26px;
+  width: 150px;
+  padding-right: 50px;
+  position: relative;
+  top: 0;
+  left: -23px;
+}
+/* line 60, assets\less\footer.less */
+.footer .f_right li p {
+  color: #FFF;
+  font-size: 14px;
+  padding: 30px 0;
+}
+/* line 65, assets\less\footer.less */
+.footer .f_right li a {
+  color: #FFF;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/* line 72, assets\less\footer.less */
+.footer .f_right .contact .c_sub {
+  margin-top: 30px;
+}
+/* line 74, assets\less\footer.less */
+.footer .f_right .contact .c_sub span {
+  display: inline-block;
+  color: #FFF;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+/* line 1, assets\less\gnb.less */
+.top-bar {
+  height: 50px;
+  background: #8fd614;
+}
+/* line 4, assets\less\gnb.less */
+.top-bar .logo {
+  width: 150px;
+  height: 50px;
+  float: left;
+  padding-left: 10px;
+}
+/* line 10, assets\less\gnb.less */
+.top-bar .t_right {
+  float: right;
+  padding: 5px 10px 0 0;
+  width: 280px;
+}
+/* line 14, assets\less\gnb.less */
+.top-bar .t_right li {
+  float: left;
+  padding: 5px;
+}
+/* line 18, assets\less\gnb.less */
+.top-bar .t_right .cart {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 3px;
+}
+/* line 24, assets\less\gnb.less */
+.top-bar .t_right .user {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 3px;
+}
+/* line 30, assets\less\gnb.less */
+.top-bar .t_right .r_search {
+  width: 200px;
+  white-space: normal;
+}
+/* line 33, assets\less\gnb.less */
+.top-bar .t_right .r_search .search {
+  width: 150px;
+  height: 30px;
+  background-color: #eaed16;
+  border: none;
+  font-size: 12px;
+  float: left;
+  padding-left: 45px;
+  background-image: url('../images/search.png');
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 5px 8px;
+}
+/* line 51, assets\less\gnb.less */
+.menu-bar {
+  height: 70px;
+  background: #304021;
+}
+/* line 55, assets\less\gnb.less */
+.menu-bar ul {
+  width: 1250px;
+  margin: 0 auto;
+}
+/* line 58, assets\less\gnb.less */
+.menu-bar ul .menu {
+  width: 250px;
+  height: 70px;
+  float: left;
+  text-align: center;
+  line-height: 70px;
+}
+/* line 64, assets\less\gnb.less */
+.menu-bar ul .menu div {
+  display: none;
+}
+/* line 67, assets\less\gnb.less */
+.menu-bar ul .menu li {
+  width: 250px;
+  height: 70px;
+  background-color: #294a0b;
+  font-size: 14px;
+}
+/* line 73, assets\less\gnb.less */
+.menu-bar ul .menu li a {
+  font-size: 14px;
+}
+/* line 77, assets\less\gnb.less */
+.menu-bar ul .menu a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+}
