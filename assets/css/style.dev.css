@@ -18,6 +18,10 @@ a {
 img {
   vertical-align: top;
 }
+/* line 15, assets\less\common.less */
+.hidden {
+  display: none;
+}
 /* line 2, assets\less\style.less */
 .wrap {
   width: 100%;
@@ -34,9 +38,8 @@ img {
   width: 1920px;
   position: absolute;
   top: -680px;
-  z-index: -2;
 }
-/* line 16, assets\less\style.less */
+/* line 15, assets\less\style.less */
 .wrap .main p {
   border: 10px #8fd614 solid;
   width: 350px;
@@ -47,35 +50,34 @@ img {
   position: absolute;
   right: 760px;
   top: 180px;
-  z-index: -1;
 }
-/* line 27, assets\less\style.less */
+/* line 25, assets\less\style.less */
 .wrap .main p span {
   display: inline-block;
   padding: 10px;
   color: #FFF;
 }
-/* line 35, assets\less\style.less */
+/* line 33, assets\less\style.less */
 .wrap .second ul {
   height: 300px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 40, assets\less\style.less */
+/* line 38, assets\less\style.less */
 .wrap .second ul li[class^="s-sub"] {
   width: 100%;
 }
-/* line 42, assets\less\style.less */
+/* line 40, assets\less\style.less */
 .wrap .second ul li[class^="s-sub"] img {
   width: 23.7%;
   float: left;
   padding: 10px;
 }
-/* line 48, assets\less\style.less */
+/* line 46, assets\less\style.less */
 .wrap .second ul .s-sub1 {
   position: relative;
 }
-/* line 50, assets\less\style.less */
+/* line 48, assets\less\style.less */
 .wrap .second ul .s-sub1 .s_ve {
   display: block;
   color: #FFF;
@@ -85,11 +87,11 @@ img {
   left: 7%;
   text-transform: uppercase;
 }
-/* line 60, assets\less\style.less */
+/* line 58, assets\less\style.less */
 .wrap .second ul .s-sub2 {
   position: relative;
 }
-/* line 62, assets\less\style.less */
+/* line 60, assets\less\style.less */
 .wrap .second ul .s-sub2 .s_fr {
   display: inline-block;
   color: #FFF;
@@ -99,11 +101,11 @@ img {
   top: 130px;
   left: 34%;
 }
-/* line 72, assets\less\style.less */
+/* line 70, assets\less\style.less */
 .wrap .second ul .s-sub3 {
   position: relative;
 }
-/* line 74, assets\less\style.less */
+/* line 72, assets\less\style.less */
 .wrap .second ul .s-sub3 .s_si {
   display: inline-block;
   color: #FFF;
@@ -113,11 +115,11 @@ img {
   top: 130px;
   left: 57%;
 }
-/* line 84, assets\less\style.less */
+/* line 82, assets\less\style.less */
 .wrap .second ul .s-sub4 {
   position: relative;
 }
-/* line 86, assets\less\style.less */
+/* line 84, assets\less\style.less */
 .wrap .second ul .s-sub4 .s_pr {
   display: inline-block;
   color: #FFF;
@@ -127,34 +129,34 @@ img {
   top: 130px;
   left: 83%;
 }
-/* line 99, assets\less\style.less */
+/* line 97, assets\less\style.less */
 .wrap .third ul {
   background-color: #000;
   height: 508px;
 }
-/* line 102, assets\less\style.less */
+/* line 100, assets\less\style.less */
 .wrap .third ul li {
   width: 40%;
   float: left;
 }
-/* line 105, assets\less\style.less */
+/* line 103, assets\less\style.less */
 .wrap .third ul li img {
   width: 100%;
   float: left;
 }
-/* line 109, assets\less\style.less */
+/* line 107, assets\less\style.less */
 .wrap .third ul li p {
   position: relative;
   left: 200px;
   top: 100px;
 }
-/* line 114, assets\less\style.less */
+/* line 112, assets\less\style.less */
 .wrap .third ul li p:first-child {
   font-size: 60px;
   text-align: center;
   color: #FFF;
 }
-/* line 119, assets\less\style.less */
+/* line 117, assets\less\style.less */
 .wrap .third ul li p:last-child {
   font-size: 24px;
   text-align: center;
@@ -162,32 +164,32 @@ img {
   display: inline-block;
   margin-top: 30px;
 }
-/* line 129, assets\less\style.less */
+/* line 127, assets\less\style.less */
 .wrap .farm-info {
   height: 700px;
 }
-/* line 131, assets\less\style.less */
+/* line 129, assets\less\style.less */
 .wrap .farm-info .title {
   text-align: center;
   position: relative;
 }
-/* line 134, assets\less\style.less */
+/* line 132, assets\less\style.less */
 .wrap .farm-info .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 140, assets\less\style.less */
+/* line 138, assets\less\style.less */
 .wrap .farm-info .title span {
   display: block;
 }
-/* line 143, assets\less\style.less */
+/* line 141, assets\less\style.less */
 .wrap .farm-info .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 147, assets\less\style.less */
+/* line 145, assets\less\style.less */
 .wrap .farm-info .title span.line:before {
   content: "";
   display: block;
@@ -198,7 +200,7 @@ img {
   top: 74px;
   left: 815px;
 }
-/* line 157, assets\less\style.less */
+/* line 155, assets\less\style.less */
 .wrap .farm-info .title span.line:after {
   content: "";
   display: block;
@@ -209,7 +211,7 @@ img {
   top: 74px;
   left: 985px;
 }
-/* line 169, assets\less\style.less */
+/* line 167, assets\less\style.less */
 .wrap .farm-info .box {
   background-color: #4A210B;
   width: 250px;
@@ -218,40 +220,40 @@ img {
   top: 170px;
   left: 405px;
 }
-/* line 176, assets\less\style.less */
+/* line 174, assets\less\style.less */
 .wrap .farm-info .box .fi_top {
   width: 100%;
 }
-/* line 178, assets\less\style.less */
+/* line 176, assets\less\style.less */
 .wrap .farm-info .box .fi_top img {
   width: 160%;
   position: absolute;
   top: -150px;
   left: -245px;
 }
-/* line 185, assets\less\style.less */
+/* line 183, assets\less\style.less */
 .wrap .farm-info .box .fi_left {
   width: 100%;
 }
-/* line 187, assets\less\style.less */
+/* line 185, assets\less\style.less */
 .wrap .farm-info .box .fi_left img {
   width: 170%;
   position: absolute;
   top: 165px;
   left: -210px;
 }
-/* line 194, assets\less\style.less */
+/* line 192, assets\less\style.less */
 .wrap .farm-info .box .fi_right {
   width: 100%;
 }
-/* line 196, assets\less\style.less */
+/* line 194, assets\less\style.less */
 .wrap .farm-info .box .fi_right img {
   width: 150%;
   position: absolute;
   top: -55px;
   left: 170px;
 }
-/* line 204, assets\less\style.less */
+/* line 202, assets\less\style.less */
 .wrap .farm-info p {
   display: inline-block;
   width: 700px;
@@ -262,29 +264,29 @@ img {
   font-size: 12px;
   line-height: 200%;
 }
-/* line 216, assets\less\style.less */
+/* line 214, assets\less\style.less */
 .wrap .pro-info .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 220, assets\less\style.less */
+/* line 218, assets\less\style.less */
 .wrap .pro-info .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 226, assets\less\style.less */
+/* line 224, assets\less\style.less */
 .wrap .pro-info .title span {
   display: block;
 }
-/* line 229, assets\less\style.less */
+/* line 227, assets\less\style.less */
 .wrap .pro-info .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 233, assets\less\style.less */
+/* line 231, assets\less\style.less */
 .wrap .pro-info .title span.line:before {
   content: "";
   display: block;
@@ -295,7 +297,7 @@ img {
   top: 74px;
   left: 815px;
 }
-/* line 243, assets\less\style.less */
+/* line 241, assets\less\style.less */
 .wrap .pro-info .title span.line:after {
   content: "";
   display: block;
@@ -306,7 +308,7 @@ img {
   top: 74px;
   left: 985px;
 }
-/* line 254, assets\less\style.less */
+/* line 252, assets\less\style.less */
 .wrap .pro-info .pi {
   position: relative;
   background-image: url('../images/main/pro-info1.png');
@@ -314,24 +316,24 @@ img {
   background-size: 50%;
   height: 400px;
 }
-/* line 260, assets\less\style.less */
+/* line 258, assets\less\style.less */
 .wrap .pro-info .pi ul {
   width: 100%;
   height: 100%;
 }
-/* line 263, assets\less\style.less */
+/* line 261, assets\less\style.less */
 .wrap .pro-info .pi ul li {
   width: 25%;
   float: left;
 }
-/* line 267, assets\less\style.less */
+/* line 265, assets\less\style.less */
 .wrap .pro-info .pi ul .ve {
   height: 400px;
   background-color: rgba(44, 239, 67, 0.3);
   position: absolute;
   top: 0px;
 }
-/* line 273, assets\less\style.less */
+/* line 271, assets\less\style.less */
 .wrap .pro-info .pi ul .fr {
   height: 400px;
   background-color: rgba(255, 245, 104, 0.3);
@@ -339,7 +341,7 @@ img {
   top: 0px;
   left: 25%;
 }
-/* line 280, assets\less\style.less */
+/* line 278, assets\less\style.less */
 .wrap .pro-info .pi ul .si {
   height: 400px;
   background-color: rgba(244, 111, 38, 0.3);
@@ -347,7 +349,7 @@ img {
   top: 0px;
   left: 50%;
 }
-/* line 287, assets\less\style.less */
+/* line 285, assets\less\style.less */
 .wrap .pro-info .pi ul .pr {
   height: 400px;
   background-color: rgba(137, 44, 225, 0.3);
@@ -355,34 +357,34 @@ img {
   top: 0px;
   left: 75%;
 }
-/* line 296, assets\less\style.less */
+/* line 294, assets\less\style.less */
 .wrap .pro-info .pro-sub {
   width: 100%;
   height: 700px;
 }
-/* line 299, assets\less\style.less */
+/* line 297, assets\less\style.less */
 .wrap .pro-info .pro-sub .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 303, assets\less\style.less */
+/* line 301, assets\less\style.less */
 .wrap .pro-info .pro-sub .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 309, assets\less\style.less */
+/* line 307, assets\less\style.less */
 .wrap .pro-info .pro-sub .title span {
   display: block;
 }
-/* line 312, assets\less\style.less */
+/* line 310, assets\less\style.less */
 .wrap .pro-info .pro-sub .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 316, assets\less\style.less */
+/* line 314, assets\less\style.less */
 .wrap .pro-info .pro-sub .title span.line:before {
   content: "";
   display: block;
@@ -393,7 +395,7 @@ img {
   top: 74px;
   left: 815px;
 }
-/* line 326, assets\less\style.less */
+/* line 324, assets\less\style.less */
 .wrap .pro-info .pro-sub .title span.line:after {
   content: "";
   display: block;
@@ -404,25 +406,25 @@ img {
   top: 74px;
   left: 985px;
 }
-/* line 337, assets\less\style.less */
+/* line 335, assets\less\style.less */
 .wrap .pro-info .pro-sub > img {
   width: 40%;
   margin: 30px 30px 30px 100px;
   float: left;
 }
-/* line 360, assets\less\style.less */
+/* line 358, assets\less\style.less */
 .wrap .pro-info .pro-sub .ps-sub ul li {
   width: 15%;
   float: left;
   margin: 20px 10px 0 0;
   padding: 10px;
 }
-/* line 365, assets\less\style.less */
+/* line 363, assets\less\style.less */
 .wrap .pro-info .pro-sub .ps-sub ul li img {
   width: 100%;
   height: 200px;
 }
-/* line 369, assets\less\style.less */
+/* line 367, assets\less\style.less */
 .wrap .pro-info .pro-sub .ps-sub ul li span {
   display: block;
   width: 300px;
@@ -430,34 +432,34 @@ img {
   clear: left;
   text-transform: capitalize;
 }
-/* line 383, assets\less\style.less */
+/* line 381, assets\less\style.less */
 .wrap .recipe {
   height: 700px;
   widht: 100%;
 }
-/* line 386, assets\less\style.less */
+/* line 384, assets\less\style.less */
 .wrap .recipe .title {
   text-align: center;
   position: relative;
   margin-bottom: 50px;
 }
-/* line 390, assets\less\style.less */
+/* line 388, assets\less\style.less */
 .wrap .recipe .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 396, assets\less\style.less */
+/* line 394, assets\less\style.less */
 .wrap .recipe .title span {
   display: block;
 }
-/* line 399, assets\less\style.less */
+/* line 397, assets\less\style.less */
 .wrap .recipe .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 403, assets\less\style.less */
+/* line 401, assets\less\style.less */
 .wrap .recipe .title span.line:before {
   content: "";
   display: block;
@@ -468,7 +470,7 @@ img {
   top: 74px;
   left: 815px;
 }
-/* line 413, assets\less\style.less */
+/* line 411, assets\less\style.less */
 .wrap .recipe .title span.line:after {
   content: "";
   display: block;
@@ -479,7 +481,7 @@ img {
   top: 74px;
   left: 985px;
 }
-/* line 424, assets\less\style.less */
+/* line 422, assets\less\style.less */
 .wrap .recipe .rec_box {
   height: 600px;
   background-image: url('../images/main/act.jpg');
@@ -488,7 +490,7 @@ img {
   background-position: 150px 0;
   position: relative;
 }
-/* line 431, assets\less\style.less */
+/* line 429, assets\less\style.less */
 .wrap .recipe .rec_box li {
   width: 250px;
   height: 400px;
@@ -498,7 +500,7 @@ img {
   margin-right: 10px;
   overflow: hidden;
 }
-/* line 440, assets\less\style.less */
+/* line 438, assets\less\style.less */
 .wrap .recipe .rec_box .rb_sub {
   width: 1000px;
   height: 380px;
@@ -507,7 +509,7 @@ img {
   top: 50px;
   left: 800px;
 }
-/* line 450, assets\less\style.less */
+/* line 448, assets\less\style.less */
 .wrap .com {
   height: 600px;
   overflow: hidden;
@@ -519,7 +521,7 @@ img {
   left: 0;
   z-index: -3;
 }
-/* line 461, assets\less\style.less */
+/* line 459, assets\less\style.less */
 .wrap .com h4 {
   text-transform: uppercase;
   font-size: 24px;
@@ -528,7 +530,7 @@ img {
   top: 100px;
   left: 350px;
 }
-/* line 469, assets\less\style.less */
+/* line 467, assets\less\style.less */
 .wrap .com img {
   width: 100%;
   position: relative;
@@ -538,7 +540,7 @@ img {
   bottom: 0;
   z-index: -3;
 }
-/* line 478, assets\less\style.less */
+/* line 476, assets\less\style.less */
 .wrap .com .com_shadow {
   height: 600px;
   width: 100%;
@@ -547,7 +549,7 @@ img {
   top: 0px;
   z-index: -2;
 }
-/* line 485, assets\less\style.less */
+/* line 483, assets\less\style.less */
 .wrap .com .com_shadow li {
   margin-left: 20px;
   border: 1px #f00 solid;
@@ -559,14 +561,14 @@ img {
   left: 17%;
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 495, assets\less\style.less */
+/* line 493, assets\less\style.less */
 .wrap .com .com_shadow li p {
   color: #FFF;
   font-size: 14px;
   line-height: 25px;
   margin: 10px;
 }
-/* line 501, assets\less\style.less */
+/* line 499, assets\less\style.less */
 .wrap .com .com_shadow li .cs_facel {
   display: block;
   width: 80px;
@@ -580,7 +582,7 @@ img {
   top: 15%;
   left: 5%;
 }
-/* line 514, assets\less\style.less */
+/* line 512, assets\less\style.less */
 .wrap .com .com_shadow li .cs_facem {
   display: block;
   width: 80px;
@@ -593,7 +595,7 @@ img {
   top: 15%;
   left: 5%;
 }
-/* line 526, assets\less\style.less */
+/* line 524, assets\less\style.less */
 .wrap .com .com_shadow li .cs_faceb {
   display: block;
   width: 80px;
@@ -607,7 +609,7 @@ img {
   top: 15%;
   left: 5%;
 }
-/* line 540, assets\less\style.less */
+/* line 538, assets\less\style.less */
 .wrap .com .com_shadow p:before {
   content: "";
   width: 20px;
@@ -618,36 +620,36 @@ img {
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
-/* line 592, assets\less\style.less */
+/* line 590, assets\less\style.less */
 .wrap .blog {
   background-image: url('../images/main/blog_1.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
 }
-/* line 593, assets\less\style.less */
+/* line 591, assets\less\style.less */
 .wrap .blog .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
   padding-top: 20px;
 }
-/* line 598, assets\less\style.less */
+/* line 596, assets\less\style.less */
 .wrap .blog .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
 }
-/* line 603, assets\less\style.less */
+/* line 601, assets\less\style.less */
 .wrap .blog .title span {
   display: block;
 }
-/* line 606, assets\less\style.less */
+/* line 604, assets\less\style.less */
 .wrap .blog .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 610, assets\less\style.less */
+/* line 608, assets\less\style.less */
 .wrap .blog .title span.line:before {
   content: "";
   display: block;
@@ -658,7 +660,7 @@ img {
   top: 100px;
   left: 815px;
 }
-/* line 620, assets\less\style.less */
+/* line 618, assets\less\style.less */
 .wrap .blog .title span.line:after {
   content: "";
   display: block;
@@ -669,7 +671,7 @@ img {
   top: 100px;
   left: 985px;
 }
-/* line 636, assets\less\style.less */
+/* line 634, assets\less\style.less */
 .wrap .blog ul li {
   height: 400px;
   width: 300px;
@@ -678,17 +680,17 @@ img {
   position: relative;
   left: 469px;
 }
-/* line 643, assets\less\style.less */
+/* line 641, assets\less\style.less */
 .wrap .blog ul li img {
   width: 100%;
   height: 200px;
 }
-/* line 647, assets\less\style.less */
+/* line 645, assets\less\style.less */
 .wrap .blog ul li p {
   width: 300px;
   margin-top: 5px;
 }
-/* line 651, assets\less\style.less */
+/* line 649, assets\less\style.less */
 .wrap .blog ul li .date {
   font-weight: bold;
   color: grey;
@@ -696,19 +698,19 @@ img {
   margin: 20px 0;
   text-transform: capitalize;
 }
-/* line 658, assets\less\style.less */
+/* line 656, assets\less\style.less */
 .wrap .blog ul li .b_title {
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 663, assets\less\style.less */
+/* line 661, assets\less\style.less */
 .wrap .blog ul li .read {
   font-weight: bold;
   color: #546A79;
   margin-top: 10px;
 }
-/* line 668, assets\less\style.less */
+/* line 666, assets\less\style.less */
 .wrap .blog ul li p.date:after {
   content: "";
   width: 20px;
@@ -720,7 +722,7 @@ img {
   background-image: url('../images/main/chat.png');
   background-repeat: no-repeat;
 }
-/* line 679, assets\less\style.less */
+/* line 677, assets\less\style.less */
 .wrap .blog ul li p.date:before {
   content: "5";
   width: 20px;
@@ -730,7 +732,7 @@ img {
   top: -2px;
   right: 8px;
 }
-/* line 689, assets\less\style.less */
+/* line 687, assets\less\style.less */
 .wrap .blog ul li p.read:before {
   content: "";
   width: 15px;
@@ -1488,7 +1490,7 @@ img {
   height: 250px;
   overflow: hidden;
 }
-/* line 1, assets\less\recipe.less */
+/* line 1, assets\less\recipe1.less */
 .rec_section {
   width: 1200px;
   height: 1100px;
@@ -1497,18 +1499,18 @@ img {
   top: -60px;
   overflow: hidden;
 }
-/* line 8, assets\less\recipe.less */
+/* line 8, assets\less\recipe1.less */
 .rec_section .rs_left {
   width: 880px;
   height: 1100px;
   float: left;
   background-color: #FFF;
 }
-/* line 13, assets\less\recipe.less */
+/* line 13, assets\less\recipe1.less */
 .rec_section .rs_left ul {
   margin: 60px 0 0 90px ;
 }
-/* line 15, assets\less\recipe.less */
+/* line 15, assets\less\recipe1.less */
 .rec_section .rs_left ul li {
   width: 200px;
   height: 250px;
@@ -1516,18 +1518,18 @@ img {
   float: left;
   padding: 15px;
 }
-/* line 21, assets\less\recipe.less */
+/* line 21, assets\less\recipe1.less */
 .rec_section .rs_left ul li img {
   width: 200%;
 }
-/* line 27, assets\less\recipe.less */
+/* line 27, assets\less\recipe1.less */
 .rec_section .rs_right {
   width: 300px;
   height: 1100px;
   margin-left: 900px;
   background-color: #fff;
 }
-/* line 32, assets\less\recipe.less */
+/* line 32, assets\less\recipe1.less */
 .rec_section .rs_right h4 {
   height: 30px;
   text-transform: uppercase;
@@ -1535,11 +1537,11 @@ img {
   text-align: center;
   line-height: 30px;
 }
-/* line 39, assets\less\recipe.less */
+/* line 39, assets\less\recipe1.less */
 .rec_section .rs_right .rsr_top {
   margin-bottom: 10px;
 }
-/* line 41, assets\less\recipe.less */
+/* line 41, assets\less\recipe1.less */
 .rec_section .rs_right .rsr_top li {
   height: 30px;
   text-transform: uppercase;
@@ -1550,21 +1552,123 @@ img {
   padding: 10px;
   background-color: #f0f0f0;
 }
-/* line 52, assets\less\recipe.less */
+/* line 52, assets\less\recipe1.less */
 .rec_section .rs_right .rsr_mid {
   height: 250px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 57, assets\less\recipe.less */
+/* line 57, assets\less\recipe1.less */
 .rec_section .rs_right .rsr_bot {
   height: 250px;
   overflow: hidden;
 }
+/* line 1, assets\less\recipe2.less */
+.rec2_section {
+  width: 100%;
+  height: 2400px;
+  position: relative;
+}
+/* line 5, assets\less\recipe2.less */
+.rec2_section .rs2 {
+  float: left;
+  width: 1020px;
+  height: 1200px;
+}
+/* line 9, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn {
+  width: 150px;
+  height: 200px;
+}
+/* line 12, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn li {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+/* line 16, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn li a {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 21, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn li:nth-child(1) {
+  background-color: #acd373;
+}
+/* line 25, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main {
+  width: 860px;
+  height: 100%;
+}
+/* line 28, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main .rm_top {
+  background-color: #acd373;
+  width: 52%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+/* line 35, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main .rm_top img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 40, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main .rm_mid {
+  background-color: #acd373;
+  width: 52%;
+  height: 640px;
+  position: absolute;
+  top: 640px;
+  left: 150px;
+}
+/* line 47, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main .rm_mid img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 51, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main .rm_mid img:nth-child(2) {
+  width: 47.5%;
+  float: left;
+  height: 300px;
+}
+/* line 56, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_main .rm_mid img:nth-child(3) {
+  width: 47.5%;
+  float: right;
+  height: 300px;
+}
+/* line 64, assets\less\recipe2.less */
+.rec2_section .rs2_right {
+  margin-left: 1200px;
+  width: 640px;
+}
+/* line 67, assets\less\recipe2.less */
+.rec2_section .rs2_right .rr_top {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+/* line 71, assets\less\recipe2.less */
+.rec2_section .rs2_right .rr_top img {
+  width: 100%;
+}
+/* line 74, assets\less\recipe2.less */
+.rec2_section .rs2_right .rr_top h4 {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+/* line 79, assets\less\recipe2.less */
+.rec2_section .rs2_right .rr_top p {
+  line-height: 25px;
+}
 /* line 1, assets\less\shop.less */
 .shop_section {
   width: 1200px;
-  height: 1100px;
+  height: 1200px;
   margin: 0 360px;
   position: relative;
   top: -60px;
@@ -1573,34 +1677,92 @@ img {
 /* line 8, assets\less\shop.less */
 .shop_section .shop_left {
   width: 880px;
-  height: 1100px;
+  height: 100%;
   float: left;
   background-color: #FFF;
 }
 /* line 13, assets\less\shop.less */
-.shop_section .shop_left ul {
-  margin: 60px 0 0 90px ;
+.shop_section .shop_left .sl_top {
+  height: 300px;
+  margin: 60px 0 0 20px;
 }
-/* line 15, assets\less\shop.less */
-.shop_section .shop_left ul li {
-  width: 200px;
-  height: 130px;
-  overflow: hidden;
+/* line 16, assets\less\shop.less */
+.shop_section .shop_left .sl_top li {
   float: left;
-  padding: 15px;
+  border: 1px #F0F0F0 solid;
+  border-radius: 10px;
+  width: 30%;
+  height: 250px;
+  margin-right: 15px;
+  padding: 5px;
 }
-/* line 21, assets\less\shop.less */
-.shop_section .shop_left ul li img {
-  width: 110%;
+/* line 24, assets\less\shop.less */
+.shop_section .shop_left .sl_top li img {
+  width: 75%;
+  position: relative;
+  top: 60px;
+  left: 35px;
 }
-/* line 27, assets\less\shop.less */
+/* line 31, assets\less\shop.less */
+.shop_section .shop_left .sl_top li:nth-child(1) {
+  background-color: tomato;
+}
+/* line 34, assets\less\shop.less */
+.shop_section .shop_left .sl_top li:nth-child(2) {
+  background-color: green;
+}
+/* line 37, assets\less\shop.less */
+.shop_section .shop_left .sl_top li:nth-child(3) {
+  background-color: yellow;
+}
+/* line 42, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul {
+  height: 100%;
+  margin: 0 40px 0 40px;
+}
+/* line 45, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul li {
+  width: 28%;
+  float: left;
+  margin: 20px;
+}
+/* line 49, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul li .sl_image {
+  border: 1px #8fd614 solid;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+/* line 54, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul li .sl_image img {
+  width: 100%;
+}
+/* line 58, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul li .sl_con {
+  margin-top: 15px;
+}
+/* line 60, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul li .sl_con span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/* line 68, assets\less\shop.less */
+.shop_section .shop_left .sl_mid ul li .sl_con span:last-child {
+  text-decoration: underline;
+  color: #8fd614;
+}
+/* line 77, assets\less\shop.less */
 .shop_section .shop_right {
   width: 300px;
   height: 1100px;
   margin-left: 900px;
   background-color: #fff;
 }
-/* line 32, assets\less\shop.less */
+/* line 82, assets\less\shop.less */
 .shop_section .shop_right h4 {
   height: 30px;
   text-transform: uppercase;
@@ -1608,11 +1770,11 @@ img {
   text-align: center;
   line-height: 30px;
 }
-/* line 39, assets\less\shop.less */
+/* line 89, assets\less\shop.less */
 .shop_section .shop_right .shr_top {
   margin-bottom: 10px;
 }
-/* line 41, assets\less\shop.less */
+/* line 91, assets\less\shop.less */
 .shop_section .shop_right .shr_top li {
   height: 30px;
   text-transform: uppercase;
@@ -1623,13 +1785,13 @@ img {
   padding: 10px;
   background-color: #f0f0f0;
 }
-/* line 52, assets\less\shop.less */
+/* line 102, assets\less\shop.less */
 .shop_section .shop_right .shr_mid {
   height: 250px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 57, assets\less\shop.less */
+/* line 107, assets\less\shop.less */
 .shop_section .shop_right .shr_bot {
   height: 250px;
   overflow: hidden;
