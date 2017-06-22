@@ -32,15 +32,23 @@ module.exports = function(grunt) {
         }
     },
     watch: {
-      less: {
-        files: ['./assets/less/*.less'],
-        tasks: ['less'],
+          less: {
+            files: ['./assets/less/*.less'],
+            tasks: ['less'],
+            options: {
+              spawn: false,
+            }
+        }
+    },
+    includes: {
+        cwd: 'src', //includes를 시킬 파일이 있는 곳
+        src: ['**/*.html'], // Source files
+        dest: 'dist', // Destination directory
         options: {
-          spawn: false,
-        },
+          flatten: true,
+          includePath:'src/views/includes/'
+        }
       }
-    }
-
 });
     //less
     // Load the plugin that provides the "uglify" task.
@@ -48,7 +56,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-serve');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
+  grunt.loadNpmTasks('grunt-includes');
   // Default task(s).
   grunt.registerTask('default', ['serve']);
 

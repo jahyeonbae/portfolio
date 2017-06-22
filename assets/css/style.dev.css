@@ -749,13 +749,11 @@ img {
 /* line 1, assets\less\footer.less */
 .footer {
   height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-image: url('../images/footer/footer_3.jpg');
   background-repeat: repeat;
   background-size: contain;
 }
-/* line 8, assets\less\footer.less */
+/* line 6, assets\less\footer.less */
 .footer .f_left {
   width: 400px;
   height: 100%;
@@ -765,7 +763,7 @@ img {
   top: 80px;
   left: 200px;
 }
-/* line 16, assets\less\footer.less */
+/* line 14, assets\less\footer.less */
 .footer .f_left p {
   color: #FFF;
   font-size: 18px;
@@ -773,19 +771,19 @@ img {
   margin-top: 20px;
   width: 400px;
 }
-/* line 23, assets\less\footer.less */
+/* line 21, assets\less\footer.less */
 .footer .f_left li {
   float: left;
   padding: 5px 20px 5px 5px;
 }
-/* line 28, assets\less\footer.less */
+/* line 26, assets\less\footer.less */
 .footer .f_right {
   margin-left: 800px;
   height: 100%;
   position: relative;
   top: 80px;
 }
-/* line 34, assets\less\footer.less */
+/* line 32, assets\less\footer.less */
 .footer .f_right li {
   float: left;
   padding: 5px;
@@ -793,7 +791,7 @@ img {
   text-align: center;
   width: 200px;
 }
-/* line 40, assets\less\footer.less */
+/* line 38, assets\less\footer.less */
 .footer .f_right li .s_mail {
   width: 230px;
   height: 30px;
@@ -804,7 +802,7 @@ img {
   background-position: right;
   background-size: auto;
 }
-/* line 49, assets\less\footer.less */
+/* line 47, assets\less\footer.less */
 .footer .f_right li .s_mail .sm_sub {
   font-size: 12px;
   background-color: #fff;
@@ -815,23 +813,23 @@ img {
   top: 0;
   left: -23px;
 }
-/* line 60, assets\less\footer.less */
+/* line 58, assets\less\footer.less */
 .footer .f_right li p {
   color: #FFF;
   font-size: 14px;
   padding: 30px 0;
 }
-/* line 65, assets\less\footer.less */
+/* line 63, assets\less\footer.less */
 .footer .f_right li a {
   color: #FFF;
   font-size: 24px;
   text-transform: uppercase;
 }
-/* line 72, assets\less\footer.less */
+/* line 70, assets\less\footer.less */
 .footer .f_right .contact .c_sub {
   margin-top: 30px;
 }
-/* line 74, assets\less\footer.less */
+/* line 72, assets\less\footer.less */
 .footer .f_right .contact .c_sub span {
   display: inline-block;
   color: #FFF;
@@ -1566,7 +1564,7 @@ img {
 /* line 1, assets\less\recipe2.less */
 .rec2_section {
   width: 100%;
-  height: 2400px;
+  height: 1700px;
   position: relative;
 }
 /* line 5, assets\less\recipe2.less */
@@ -1595,12 +1593,24 @@ img {
 .rec2_section .rs2 .rs2_btn li:nth-child(1) {
   background-color: #acd373;
 }
-/* line 25, assets\less\recipe2.less */
+/* line 24, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn li:nth-child(2) {
+  background-color: #7accc8;
+}
+/* line 27, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn li:nth-child(3) {
+  background-color: #f9ad81;
+}
+/* line 30, assets\less\recipe2.less */
+.rec2_section .rs2 .rs2_btn li:nth-child(4) {
+  background-color: #f49ac1;
+}
+/* line 34, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main {
   width: 860px;
   height: 100%;
 }
-/* line 28, assets\less\recipe2.less */
+/* line 37, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main .rm_top {
   background-color: #acd373;
   width: 52%;
@@ -1609,12 +1619,12 @@ img {
   top: 0;
   left: 150px;
 }
-/* line 35, assets\less\recipe2.less */
+/* line 44, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main .rm_top img {
   width: 97.5%;
   padding: 10px;
 }
-/* line 40, assets\less\recipe2.less */
+/* line 49, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main .rm_mid {
   background-color: #acd373;
   width: 52%;
@@ -1623,46 +1633,292 @@ img {
   top: 640px;
   left: 150px;
 }
-/* line 47, assets\less\recipe2.less */
+/* line 56, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main .rm_mid img {
   width: 97.5%;
   padding: 10px;
 }
-/* line 51, assets\less\recipe2.less */
+/* line 60, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main .rm_mid img:nth-child(2) {
   width: 47.5%;
   float: left;
   height: 300px;
 }
-/* line 56, assets\less\recipe2.less */
+/* line 65, assets\less\recipe2.less */
 .rec2_section .rs2 .rs2_main .rm_mid img:nth-child(3) {
   width: 47.5%;
   float: right;
   height: 300px;
 }
-/* line 64, assets\less\recipe2.less */
+/* line 73, assets\less\recipe2.less */
 .rec2_section .rs2_right {
   margin-left: 1200px;
   width: 640px;
 }
-/* line 67, assets\less\recipe2.less */
+/* line 76, assets\less\recipe2.less */
 .rec2_section .rs2_right .rr_top {
   width: 100%;
   text-align: center;
   margin: 10px;
 }
-/* line 71, assets\less\recipe2.less */
+/* line 80, assets\less\recipe2.less */
 .rec2_section .rs2_right .rr_top img {
   width: 100%;
 }
-/* line 74, assets\less\recipe2.less */
+/* line 83, assets\less\recipe2.less */
 .rec2_section .rs2_right .rr_top h4 {
   padding: 10px;
   font-size: 18px;
   margin: 20px 0;
 }
-/* line 79, assets\less\recipe2.less */
+/* line 88, assets\less\recipe2.less */
 .rec2_section .rs2_right .rr_top p {
+  line-height: 25px;
+}
+/* line 94, assets\less\recipe2.less */
+.rec3_section {
+  width: 100%;
+  height: 1700px;
+  position: relative;
+}
+/* line 98, assets\less\recipe2.less */
+.rec3_section .rs3 {
+  float: left;
+  width: 1020px;
+  height: 1200px;
+}
+/* line 102, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main {
+  width: 860px;
+  height: 100%;
+}
+/* line 105, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main .rm_top {
+  background-color: #7accc8;
+  width: 52%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+/* line 112, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main .rm_top img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 117, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main .rm_mid {
+  background-color: #7accc8;
+  width: 52%;
+  height: 640px;
+  position: absolute;
+  top: 640px;
+  left: 150px;
+}
+/* line 124, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main .rm_mid img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 128, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main .rm_mid img:nth-child(2) {
+  width: 47.5%;
+  float: left;
+  height: 300px;
+}
+/* line 133, assets\less\recipe2.less */
+.rec3_section .rs3 .rs3_main .rm_mid img:nth-child(3) {
+  width: 47.5%;
+  float: right;
+  height: 300px;
+}
+/* line 141, assets\less\recipe2.less */
+.rec3_section .rs3_right {
+  margin-left: 1200px;
+  width: 640px;
+}
+/* line 144, assets\less\recipe2.less */
+.rec3_section .rs3_right .rr_top {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+/* line 148, assets\less\recipe2.less */
+.rec3_section .rs3_right .rr_top img {
+  width: 100%;
+}
+/* line 151, assets\less\recipe2.less */
+.rec3_section .rs3_right .rr_top h4 {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+/* line 156, assets\less\recipe2.less */
+.rec3_section .rs3_right .rr_top p {
+  line-height: 25px;
+}
+/* line 163, assets\less\recipe2.less */
+.rec4_section {
+  width: 100%;
+  height: 1700px;
+  position: relative;
+}
+/* line 167, assets\less\recipe2.less */
+.rec4_section .rs4 {
+  float: left;
+  width: 1020px;
+  height: 1200px;
+}
+/* line 171, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main {
+  width: 860px;
+  height: 100%;
+}
+/* line 174, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main .rm_top {
+  background-color: #f9ad81;
+  width: 52%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+/* line 181, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main .rm_top img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 186, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main .rm_mid {
+  background-color: #f9ad81;
+  width: 52%;
+  height: 640px;
+  position: absolute;
+  top: 640px;
+  left: 150px;
+}
+/* line 193, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main .rm_mid img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 197, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main .rm_mid img:nth-child(2) {
+  width: 47.5%;
+  float: left;
+  height: 300px;
+}
+/* line 202, assets\less\recipe2.less */
+.rec4_section .rs4 .rs4_main .rm_mid img:nth-child(3) {
+  width: 47.5%;
+  float: right;
+  height: 300px;
+}
+/* line 210, assets\less\recipe2.less */
+.rec4_section .rs4_right {
+  margin-left: 1200px;
+  width: 640px;
+}
+/* line 213, assets\less\recipe2.less */
+.rec4_section .rs4_right .rr_top {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+/* line 217, assets\less\recipe2.less */
+.rec4_section .rs4_right .rr_top img {
+  width: 100%;
+}
+/* line 220, assets\less\recipe2.less */
+.rec4_section .rs4_right .rr_top h4 {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+/* line 225, assets\less\recipe2.less */
+.rec4_section .rs4_right .rr_top p {
+  line-height: 25px;
+}
+/* line 232, assets\less\recipe2.less */
+.rec5_section {
+  width: 100%;
+  height: 1700px;
+  position: relative;
+}
+/* line 236, assets\less\recipe2.less */
+.rec5_section .rs5 {
+  float: left;
+  width: 1020px;
+  height: 1200px;
+}
+/* line 240, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main {
+  width: 860px;
+  height: 100%;
+}
+/* line 243, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main .rm_top {
+  background-color: #f49ac1;
+  width: 52%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+/* line 250, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main .rm_top img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 255, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main .rm_mid {
+  background-color: #f49ac1;
+  width: 52%;
+  height: 640px;
+  position: absolute;
+  top: 640px;
+  left: 150px;
+}
+/* line 262, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main .rm_mid img {
+  width: 97.5%;
+  padding: 10px;
+}
+/* line 266, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main .rm_mid img:nth-child(2) {
+  width: 47.5%;
+  float: left;
+  height: 300px;
+}
+/* line 271, assets\less\recipe2.less */
+.rec5_section .rs5 .rs5_main .rm_mid img:nth-child(3) {
+  width: 47.5%;
+  float: right;
+  height: 300px;
+}
+/* line 279, assets\less\recipe2.less */
+.rec5_section .rs5_right {
+  margin-left: 1200px;
+  width: 640px;
+}
+/* line 282, assets\less\recipe2.less */
+.rec5_section .rs5_right .rr_top {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+/* line 286, assets\less\recipe2.less */
+.rec5_section .rs5_right .rr_top img {
+  width: 100%;
+}
+/* line 289, assets\less\recipe2.less */
+.rec5_section .rs5_right .rr_top h4 {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+/* line 294, assets\less\recipe2.less */
+.rec5_section .rs5_right .rr_top p {
   line-height: 25px;
 }
 /* line 1, assets\less\shop.less */
@@ -1795,4 +2051,94 @@ img {
 .shop_section .shop_right .shr_bot {
   height: 250px;
   overflow: hidden;
+}
+/* line 1, assets\less\blog.less */
+.rec2_section {
+  width: 100%;
+  height: 2000px;
+  position: relative;
+}
+/* line 5, assets\less\blog.less */
+.rec2_section .rs2 {
+  width: 800px;
+}
+/* line 7, assets\less\blog.less */
+.rec2_section .rs2 img {
+  width: 100%;
+  height: 100%;
+}
+/* line 12, assets\less\blog.less */
+.rec2_section .rs2_right {
+  margin-left: 800px;
+  width: 1100px;
+}
+/* line 16, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top li {
+  width: 49%;
+  float: left;
+  margin-right: 10px;
+}
+/* line 20, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top li .b_g {
+  border: 1px #F00 solid;
+  position: relative;
+}
+/* line 23, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top li .b_g span {
+  border-radius: 10px;
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+}
+/* line 29, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top li .b_g span::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/footer/chat.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 44, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top img {
+  width: 100%;
+}
+/* line 47, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top h4 {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+/* line 52, assets\less\blog.less */
+.rec2_section .rs2_right .rr_top p {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+/* line 57, assets\less\blog.less */
+.rec2_section .rs2_right .rr_bot {
+  margin: 50px 0 0 10px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 62, assets\less\blog.less */
+.rec2_section .rs2_right .rr_bot img {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+/* line 67, assets\less\blog.less */
+.rec2_section .rs2_right .rr_bot .rb_g {
+  margin-left: 450px;
+  width: 640px;
+}
+/* line 70, assets\less\blog.less */
+.rec2_section .rs2_right .rr_bot .rb_g h4 {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px 0;
 }
