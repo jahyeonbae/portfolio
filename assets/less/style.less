@@ -1,27 +1,32 @@
-
-.wrap{
+body{
     width: 100%;
     height: 100%;
 
+.wrap{
+    width: auto;
+    height: auto;
+
     .main{
-        height: 600px;
+        // height: 600px;
         overflow: hidden;
         position: relative;
       img{
-          width: 1920px;
+          width: 100%;
           position: absolute;
-          top: -680px;
+          top: -650px;
       }
       p{
           border: 10px #8fd614 solid;
           width: 350px;
+          margin: auto;
           height: 150px;
           font-size: 48px;
           text-transform: uppercase;
+          position: relative;
+          top: 40%;
+          z-index: 0;
           text-align: center;
-          position:absolute;
-          right: 760px;
-          top: 180px;
+
           span{
               display: inline-block;
               padding: 10px;
@@ -702,3 +707,63 @@
             }
           //blog
 } //wrap
+// @media screen and (min-width:961px) and (max-width:1850px){
+//     .wrap{
+//         .main{
+//             width: 100%;
+//             height:400px;
+//             overflow: hidden;
+//             img{
+//                 width: 100%;
+//                 position: relative;
+//                 top:-40px;
+//             }
+//         }
+//         .second{
+//             ul{
+//                 height: 100%;
+//                 li[class^="s-sub"]{
+//                    width: 100%;
+//                    img{
+//                        width: 100%;
+//                        }
+//                 }
+//             }
+//         }
+//     }
+//
+// }
+@media screen and (min-width:479px) and (max-width:960px){
+    .wrap{
+        .main{
+            width: 100%;
+            height:380px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                position: relative;
+                top:-40px;
+            }
+            p{
+                width: 350px;
+                margin:auto;
+                height: 150px;
+                height: auto;
+                font-size: 24px;
+                position: relative;
+                top: 30%;
+
+            }
+        }
+        .second{
+            ul{
+                height: 100%;
+                li{
+                   width: 50%;
+                   img: 100%;
+                }
+            }
+        }
+    }
+}
+}
