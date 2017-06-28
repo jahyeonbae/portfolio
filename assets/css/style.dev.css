@@ -37,15 +37,15 @@ body .wrap .main {
   overflow: hidden;
   position: relative;
 }
-/* line 13, assets\less\style.less */
+/* line 16, assets\less\style.less */
 body .wrap .main img {
-  width: 100%;
+  width: 1920px;
+  margin: auto;
   position: absolute;
   top: -650px;
 }
-/* line 18, assets\less\style.less */
+/* line 22, assets\less\style.less */
 body .wrap .main p {
-  border: 10px #8fd614 solid;
   width: 350px;
   margin: auto;
   height: 150px;
@@ -55,113 +55,117 @@ body .wrap .main p {
   top: 40%;
   z-index: 0;
   text-align: center;
+  padding: 214px 0;
 }
-/* line 30, assets\less\style.less */
+/* line 33, assets\less\style.less */
 body .wrap .main p span {
+  border: 10px #8fd614 solid;
   display: inline-block;
   padding: 10px;
   color: #FFF;
 }
-/* line 38, assets\less\style.less */
+/* line 42, assets\less\style.less */
 body .wrap .second ul {
   height: 300px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
-/* line 43, assets\less\style.less */
+/* line 47, assets\less\style.less */
 body .wrap .second ul li[class^="s-sub"] {
-  width: 100%;
-}
-/* line 45, assets\less\style.less */
-body .wrap .second ul li[class^="s-sub"] img {
-  width: 23.7%;
+  width: 25%;
+  height: 100%;
   float: left;
-  padding: 10px;
+  text-align: center;
 }
-/* line 51, assets\less\style.less */
+/* line 52, assets\less\style.less */
+body .wrap .second ul li[class^="s-sub"] img {
+  width: 90%;
+  height: 90%;
+}
+/* line 57, assets\less\style.less */
 body .wrap .second ul .s-sub1 {
   position: relative;
 }
-/* line 53, assets\less\style.less */
+/* line 59, assets\less\style.less */
 body .wrap .second ul .s-sub1 .s_ve {
-  display: block;
+  display: inline-block;
   color: #FFF;
   font-size: 32px;
   position: absolute;
-  top: 130px;
-  left: 7%;
+  top: 40%;
+  left: 30%;
   text-transform: uppercase;
 }
-/* line 63, assets\less\style.less */
+/* line 69, assets\less\style.less */
 body .wrap .second ul .s-sub2 {
   position: relative;
 }
-/* line 65, assets\less\style.less */
+/* line 71, assets\less\style.less */
 body .wrap .second ul .s-sub2 .s_fr {
   display: inline-block;
   color: #FFF;
   font-size: 32px;
   text-transform: uppercase;
   position: absolute;
-  top: 130px;
-  left: 34%;
+  top: 40%;
+  left: 40%;
 }
-/* line 75, assets\less\style.less */
+/* line 81, assets\less\style.less */
 body .wrap .second ul .s-sub3 {
   position: relative;
 }
-/* line 77, assets\less\style.less */
+/* line 83, assets\less\style.less */
 body .wrap .second ul .s-sub3 .s_si {
   display: inline-block;
   color: #FFF;
   font-size: 32px;
   text-transform: uppercase;
   position: absolute;
-  top: 130px;
-  left: 57%;
+  top: 40%;
+  left: 34%;
 }
-/* line 87, assets\less\style.less */
+/* line 93, assets\less\style.less */
 body .wrap .second ul .s-sub4 {
   position: relative;
 }
-/* line 89, assets\less\style.less */
+/* line 95, assets\less\style.less */
 body .wrap .second ul .s-sub4 .s_pr {
   display: inline-block;
   color: #FFF;
   font-size: 32px;
   text-transform: uppercase;
   position: absolute;
-  top: 130px;
-  left: 83%;
+  top: 40%;
+  left: 34%;
 }
-/* line 102, assets\less\style.less */
+/* line 107, assets\less\style.less */
 body .wrap .third ul {
   background-color: #000;
   height: 508px;
 }
-/* line 105, assets\less\style.less */
+/* line 110, assets\less\style.less */
 body .wrap .third ul li {
   width: 40%;
   float: left;
 }
-/* line 108, assets\less\style.less */
+/* line 113, assets\less\style.less */
 body .wrap .third ul li img {
   width: 100%;
   float: left;
 }
-/* line 112, assets\less\style.less */
+/* line 117, assets\less\style.less */
 body .wrap .third ul li p {
   position: relative;
   left: 200px;
   top: 100px;
 }
-/* line 117, assets\less\style.less */
+/* line 122, assets\less\style.less */
 body .wrap .third ul li p:first-child {
   font-size: 60px;
   text-align: center;
   color: #FFF;
 }
-/* line 122, assets\less\style.less */
+/* line 127, assets\less\style.less */
 body .wrap .third ul li p:last-child {
   font-size: 24px;
   text-align: center;
@@ -169,32 +173,32 @@ body .wrap .third ul li p:last-child {
   display: inline-block;
   margin-top: 30px;
 }
-/* line 132, assets\less\style.less */
+/* line 137, assets\less\style.less */
 body .wrap .farm-info {
   height: 700px;
-}
-/* line 134, assets\less\style.less */
-body .wrap .farm-info .title {
-  text-align: center;
   position: relative;
 }
-/* line 137, assets\less\style.less */
+/* line 140, assets\less\style.less */
+body .wrap .farm-info .title {
+  text-align: center;
+}
+/* line 142, assets\less\style.less */
 body .wrap .farm-info .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 143, assets\less\style.less */
+/* line 148, assets\less\style.less */
 body .wrap .farm-info .title span {
   display: block;
 }
-/* line 146, assets\less\style.less */
+/* line 151, assets\less\style.less */
 body .wrap .farm-info .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 150, assets\less\style.less */
+/* line 155, assets\less\style.less */
 body .wrap .farm-info .title span.line:before {
   content: "";
   display: block;
@@ -205,7 +209,7 @@ body .wrap .farm-info .title span.line:before {
   top: 74px;
   left: 815px;
 }
-/* line 160, assets\less\style.less */
+/* line 165, assets\less\style.less */
 body .wrap .farm-info .title span.line:after {
   content: "";
   display: block;
@@ -216,49 +220,49 @@ body .wrap .farm-info .title span.line:after {
   top: 74px;
   left: 985px;
 }
-/* line 172, assets\less\style.less */
+/* line 177, assets\less\style.less */
 body .wrap .farm-info .box {
   background-color: #4A210B;
   width: 250px;
   height: 250px;
   position: relative;
-  top: 170px;
-  left: 405px;
+  top: 20%;
+  left: 20%;
 }
-/* line 179, assets\less\style.less */
+/* line 184, assets\less\style.less */
 body .wrap .farm-info .box .fi_top {
   width: 100%;
 }
-/* line 181, assets\less\style.less */
+/* line 186, assets\less\style.less */
 body .wrap .farm-info .box .fi_top img {
   width: 160%;
   position: absolute;
   top: -150px;
   left: -245px;
 }
-/* line 188, assets\less\style.less */
+/* line 193, assets\less\style.less */
 body .wrap .farm-info .box .fi_left {
   width: 100%;
 }
-/* line 190, assets\less\style.less */
+/* line 195, assets\less\style.less */
 body .wrap .farm-info .box .fi_left img {
   width: 170%;
   position: absolute;
   top: 165px;
   left: -210px;
 }
-/* line 197, assets\less\style.less */
+/* line 202, assets\less\style.less */
 body .wrap .farm-info .box .fi_right {
   width: 100%;
 }
-/* line 199, assets\less\style.less */
+/* line 204, assets\less\style.less */
 body .wrap .farm-info .box .fi_right img {
   width: 150%;
   position: absolute;
   top: -55px;
   left: 170px;
 }
-/* line 207, assets\less\style.less */
+/* line 212, assets\less\style.less */
 body .wrap .farm-info p {
   display: inline-block;
   width: 700px;
@@ -269,29 +273,29 @@ body .wrap .farm-info p {
   font-size: 12px;
   line-height: 200%;
 }
-/* line 219, assets\less\style.less */
+/* line 224, assets\less\style.less */
 body .wrap .pro-info .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 223, assets\less\style.less */
+/* line 228, assets\less\style.less */
 body .wrap .pro-info .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 229, assets\less\style.less */
+/* line 234, assets\less\style.less */
 body .wrap .pro-info .title span {
   display: block;
 }
-/* line 232, assets\less\style.less */
+/* line 237, assets\less\style.less */
 body .wrap .pro-info .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 236, assets\less\style.less */
+/* line 241, assets\less\style.less */
 body .wrap .pro-info .title span.line:before {
   content: "";
   display: block;
@@ -302,7 +306,7 @@ body .wrap .pro-info .title span.line:before {
   top: 74px;
   left: 815px;
 }
-/* line 246, assets\less\style.less */
+/* line 251, assets\less\style.less */
 body .wrap .pro-info .title span.line:after {
   content: "";
   display: block;
@@ -313,7 +317,7 @@ body .wrap .pro-info .title span.line:after {
   top: 74px;
   left: 985px;
 }
-/* line 257, assets\less\style.less */
+/* line 262, assets\less\style.less */
 body .wrap .pro-info .pi {
   position: relative;
   background-image: url('../images/main/pro-info1.png');
@@ -321,24 +325,24 @@ body .wrap .pro-info .pi {
   background-size: 50%;
   height: 400px;
 }
-/* line 263, assets\less\style.less */
+/* line 268, assets\less\style.less */
 body .wrap .pro-info .pi ul {
   width: 100%;
   height: 100%;
 }
-/* line 266, assets\less\style.less */
+/* line 271, assets\less\style.less */
 body .wrap .pro-info .pi ul li {
   width: 25%;
   float: left;
 }
-/* line 270, assets\less\style.less */
+/* line 275, assets\less\style.less */
 body .wrap .pro-info .pi ul .ve {
   height: 400px;
   background-color: rgba(44, 239, 67, 0.3);
   position: absolute;
   top: 0px;
 }
-/* line 276, assets\less\style.less */
+/* line 281, assets\less\style.less */
 body .wrap .pro-info .pi ul .fr {
   height: 400px;
   background-color: rgba(255, 245, 104, 0.3);
@@ -346,7 +350,7 @@ body .wrap .pro-info .pi ul .fr {
   top: 0px;
   left: 25%;
 }
-/* line 283, assets\less\style.less */
+/* line 288, assets\less\style.less */
 body .wrap .pro-info .pi ul .si {
   height: 400px;
   background-color: rgba(244, 111, 38, 0.3);
@@ -354,7 +358,7 @@ body .wrap .pro-info .pi ul .si {
   top: 0px;
   left: 50%;
 }
-/* line 290, assets\less\style.less */
+/* line 295, assets\less\style.less */
 body .wrap .pro-info .pi ul .pr {
   height: 400px;
   background-color: rgba(137, 44, 225, 0.3);
@@ -362,34 +366,34 @@ body .wrap .pro-info .pi ul .pr {
   top: 0px;
   left: 75%;
 }
-/* line 299, assets\less\style.less */
+/* line 304, assets\less\style.less */
 body .wrap .pro-info .pro-sub {
   width: 100%;
-  height: 700px;
+  overflow: hidden;
 }
-/* line 302, assets\less\style.less */
+/* line 308, assets\less\style.less */
 body .wrap .pro-info .pro-sub .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 306, assets\less\style.less */
+/* line 312, assets\less\style.less */
 body .wrap .pro-info .pro-sub .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 312, assets\less\style.less */
+/* line 318, assets\less\style.less */
 body .wrap .pro-info .pro-sub .title span {
   display: block;
 }
-/* line 315, assets\less\style.less */
+/* line 321, assets\less\style.less */
 body .wrap .pro-info .pro-sub .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 319, assets\less\style.less */
+/* line 325, assets\less\style.less */
 body .wrap .pro-info .pro-sub .title span.line:before {
   content: "";
   display: block;
@@ -400,7 +404,7 @@ body .wrap .pro-info .pro-sub .title span.line:before {
   top: 74px;
   left: 815px;
 }
-/* line 329, assets\less\style.less */
+/* line 335, assets\less\style.less */
 body .wrap .pro-info .pro-sub .title span.line:after {
   content: "";
   display: block;
@@ -411,25 +415,25 @@ body .wrap .pro-info .pro-sub .title span.line:after {
   top: 74px;
   left: 985px;
 }
-/* line 340, assets\less\style.less */
+/* line 346, assets\less\style.less */
 body .wrap .pro-info .pro-sub > img {
   width: 40%;
   margin: 30px 30px 30px 100px;
   float: left;
 }
-/* line 363, assets\less\style.less */
+/* line 353, assets\less\style.less */
 body .wrap .pro-info .pro-sub .ps-sub ul li {
   width: 15%;
   float: left;
   margin: 20px 10px 0 0;
   padding: 10px;
 }
-/* line 368, assets\less\style.less */
+/* line 358, assets\less\style.less */
 body .wrap .pro-info .pro-sub .ps-sub ul li img {
   width: 100%;
   height: 200px;
 }
-/* line 372, assets\less\style.less */
+/* line 362, assets\less\style.less */
 body .wrap .pro-info .pro-sub .ps-sub ul li span {
   display: block;
   width: 300px;
@@ -437,34 +441,36 @@ body .wrap .pro-info .pro-sub .ps-sub ul li span {
   clear: left;
   text-transform: capitalize;
 }
-/* line 386, assets\less\style.less */
+/* line 375, assets\less\style.less */
 body .wrap .recipe {
-  height: 700px;
-  widht: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 50px;
 }
-/* line 389, assets\less\style.less */
+/* line 380, assets\less\style.less */
 body .wrap .recipe .title {
   text-align: center;
   position: relative;
   margin-bottom: 50px;
 }
-/* line 393, assets\less\style.less */
+/* line 384, assets\less\style.less */
 body .wrap .recipe .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 399, assets\less\style.less */
+/* line 390, assets\less\style.less */
 body .wrap .recipe .title span {
   display: block;
 }
-/* line 402, assets\less\style.less */
+/* line 393, assets\less\style.less */
 body .wrap .recipe .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 406, assets\less\style.less */
+/* line 397, assets\less\style.less */
 body .wrap .recipe .title span.line:before {
   content: "";
   display: block;
@@ -475,7 +481,7 @@ body .wrap .recipe .title span.line:before {
   top: 74px;
   left: 815px;
 }
-/* line 416, assets\less\style.less */
+/* line 407, assets\less\style.less */
 body .wrap .recipe .title span.line:after {
   content: "";
   display: block;
@@ -486,175 +492,178 @@ body .wrap .recipe .title span.line:after {
   top: 74px;
   left: 985px;
 }
-/* line 427, assets\less\style.less */
+/* line 418, assets\less\style.less */
 body .wrap .recipe .rec_box {
-  height: 600px;
-  background-image: url('../images/main/act.jpg');
-  background-repeat: no-repeat;
-  background-size: 500px 500px;
-  background-position: 150px 0;
-  position: relative;
+  margin: auto;
+  overflow: hidden;
 }
-/* line 434, assets\less\style.less */
-body .wrap .recipe .rec_box li {
-  width: 250px;
+/* line 421, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_left {
+  width: 30%;
+  height: 28%;
+  margin-left: 40px;
+}
+/* line 425, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_left img {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 432, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_right li {
+  width: 13.2%;
   height: 400px;
   float: left;
-  position: relative;
-  left: 750px;
-  margin-right: 10px;
   overflow: hidden;
+  position: relative;
+  top: 70px;
+  left: 145px;
+  margin-right: 10px;
+  z-index: 1;
 }
-/* line 443, assets\less\style.less */
+/* line 442, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_right li img {
+  position: absolute;
+  top: -10px;
+  left: -225px;
+}
+/* line 449, assets\less\style.less */
 body .wrap .recipe .rec_box .rb_sub {
-  width: 1000px;
+  width: 50%;
   height: 380px;
   background-color: #F36953;
-  position: absolute;
-  top: 50px;
-  left: 800px;
+  position: relative;
+  top: 120px;
+  right: -46%;
+  z-index: 0;
 }
-/* line 453, assets\less\style.less */
+/* line 461, assets\less\style.less */
 body .wrap .com {
-  height: 600px;
   overflow: hidden;
-  background-image: url('../images/main/com.jpg');
+  background-image: url('../images/main/com_re.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 0;
-  left: 0;
-  z-index: -3;
 }
-/* line 464, assets\less\style.less */
+/* line 467, assets\less\style.less */
 body .wrap .com h4 {
   text-transform: uppercase;
   font-size: 24px;
   color: #FFF;
-  position: absolute;
-  top: 100px;
-  left: 350px;
-}
-/* line 472, assets\less\style.less */
-body .wrap .com img {
-  width: 100%;
   position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -3;
+  top: 180px;
+  left: 367px;
 }
-/* line 481, assets\less\style.less */
-body .wrap .com .com_shadow {
-  height: 600px;
+/* line 475, assets\less\style.less */
+body .wrap .com .com_sub {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: relative;
-  top: 0px;
-  z-index: -2;
+  height: 100%;
+  overflow: hidden;
 }
-/* line 488, assets\less\style.less */
-body .wrap .com .com_shadow li {
-  margin-left: 20px;
-  border: 1px #f00 solid;
-  width: 400px;
-  height: 300px;
+/* line 479, assets\less\style.less */
+body .wrap .com .com_sub ul {
+  width: 1200px;
+  margin: auto;
+}
+/* line 483, assets\less\style.less */
+body .wrap .com .com_sub li {
+  width: 30%;
+  height: 100%;
   float: left;
-  position: relative;
-  top: 150px;
-  left: 17%;
   background-color: rgba(0, 0, 0, 0.1);
+  margin: 200px 10px;
 }
-/* line 498, assets\less\style.less */
-body .wrap .com .com_shadow li p {
+/* line 489, assets\less\style.less */
+body .wrap .com .com_sub li p {
   color: #FFF;
   font-size: 14px;
   line-height: 25px;
-  margin: 10px;
+  margin: auto;
+  width: 300px;
 }
-/* line 504, assets\less\style.less */
-body .wrap .com .com_shadow li .cs_facel {
+/* line 496, assets\less\style.less */
+body .wrap .com .com_sub li span[class^="cs_face"] {
   display: block;
   width: 80px;
   height: 80px;
   border-radius: 50px;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  margin: 10px;
+}
+/* line 506, assets\less\style.less */
+body .wrap .com .com_sub li .cs_facel {
   background-image: url('../images/main/facel.jpg');
   background-repeat: no-repeat;
   background-size: 200px 200px;
   background-position: -106px -4px;
-  position: relative;
-  top: 15%;
-  left: 5%;
 }
-/* line 517, assets\less\style.less */
-body .wrap .com .com_shadow li .cs_facem {
-  display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
+/* line 512, assets\less\style.less */
+body .wrap .com .com_sub li .cs_facem {
   background-image: url('../images/main/facem.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  top: 15%;
-  left: 5%;
 }
-/* line 529, assets\less\style.less */
-body .wrap .com .com_shadow li .cs_faceb {
-  display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
+/* line 517, assets\less\style.less */
+body .wrap .com .com_sub li .cs_faceb {
   background-image: url('../images/main/faceb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -19px 0px;
-  position: relative;
-  top: 15%;
-  left: 5%;
 }
-/* line 543, assets\less\style.less */
-body .wrap .com .com_shadow p:before {
+/* line 523, assets\less\style.less */
+body .wrap .com .com_sub li .cs_name {
+  color: #FFF;
+  width: 30px;
+  height: 20px;
+  font-size: 14px;
+  position: relative;
+  top: -65px;
+  left: 125px;
+  text-transform: capitalize;
+}
+/* line 534, assets\less\style.less */
+body .wrap .com .com_sub p:before {
   content: "";
   width: 20px;
   height: 20px;
   display: inline-block;
-  background-image: url(../images/main/qug.png);
+  background-image: url(../images/footer/qug.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
-/* line 595, assets\less\style.less */
+/* line 546, assets\less\style.less */
 body .wrap .blog {
   background-image: url('../images/main/blog_1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  overflow: hidden;
 }
-/* line 596, assets\less\style.less */
+/* line 551, assets\less\style.less */
 body .wrap .blog .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
   padding-top: 20px;
 }
-/* line 601, assets\less\style.less */
+/* line 556, assets\less\style.less */
 body .wrap .blog .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
 }
-/* line 606, assets\less\style.less */
+/* line 561, assets\less\style.less */
 body .wrap .blog .title span {
   display: block;
 }
-/* line 609, assets\less\style.less */
+/* line 564, assets\less\style.less */
 body .wrap .blog .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 613, assets\less\style.less */
+/* line 568, assets\less\style.less */
 body .wrap .blog .title span.line:before {
   content: "";
   display: block;
@@ -665,7 +674,7 @@ body .wrap .blog .title span.line:before {
   top: 100px;
   left: 815px;
 }
-/* line 623, assets\less\style.less */
+/* line 578, assets\less\style.less */
 body .wrap .blog .title span.line:after {
   content: "";
   display: block;
@@ -676,26 +685,28 @@ body .wrap .blog .title span.line:after {
   top: 100px;
   left: 985px;
 }
-/* line 639, assets\less\style.less */
-body .wrap .blog ul li {
-  height: 400px;
-  width: 300px;
-  padding: 10px;
-  float: left;
-  position: relative;
-  left: 469px;
+/* line 589, assets\less\style.less */
+body .wrap .blog ul {
+  width: 1100px;
+  margin: auto;
 }
-/* line 646, assets\less\style.less */
+/* line 593, assets\less\style.less */
+body .wrap .blog ul li {
+  width: 31.5%;
+  float: left;
+  margin-left: 18px;
+}
+/* line 597, assets\less\style.less */
 body .wrap .blog ul li img {
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
-/* line 650, assets\less\style.less */
+/* line 601, assets\less\style.less */
 body .wrap .blog ul li p {
   width: 300px;
   margin-top: 5px;
 }
-/* line 654, assets\less\style.less */
+/* line 605, assets\less\style.less */
 body .wrap .blog ul li .date {
   font-weight: bold;
   color: grey;
@@ -703,19 +714,19 @@ body .wrap .blog ul li .date {
   margin: 20px 0;
   text-transform: capitalize;
 }
-/* line 661, assets\less\style.less */
+/* line 612, assets\less\style.less */
 body .wrap .blog ul li .b_title {
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 666, assets\less\style.less */
+/* line 617, assets\less\style.less */
 body .wrap .blog ul li .read {
   font-weight: bold;
   color: #546A79;
   margin-top: 10px;
 }
-/* line 671, assets\less\style.less */
+/* line 622, assets\less\style.less */
 body .wrap .blog ul li p.date:after {
   content: "";
   width: 20px;
@@ -724,10 +735,10 @@ body .wrap .blog ul li p.date:after {
   position: absolute;
   top: 5%;
   right: 10%;
-  background-image: url('../images/main/chat.png');
+  background-image: url('../images/footer/chat.png');
   background-repeat: no-repeat;
 }
-/* line 682, assets\less\style.less */
+/* line 633, assets\less\style.less */
 body .wrap .blog ul li p.date:before {
   content: "5";
   width: 20px;
@@ -737,52 +748,19 @@ body .wrap .blog ul li p.date:before {
   top: -2px;
   right: 8px;
 }
-/* line 692, assets\less\style.less */
-body .wrap .blog ul li p.read:before {
+/* line 643, assets\less\style.less */
+body .wrap .blog ul li p.read:after {
   content: "";
   width: 15px;
   height: 15px;
   display: block;
   margin-top: 10px;
-  background-image: url('../images/main/plus.png');
+  background-image: url('../images/footer/plus.png');
   background-repeat: no-repeat;
   background-size: contain;
-  position: absolute;
-  top: 424px;
-  left: 94px;
-}
-@media screen and (min-width: 479px) and (max-width: 960px) {
-  /* line 738, assets\less\style.less */
-  body .wrap .main {
-    width: 100%;
-    height: 380px;
-    overflow: hidden;
-  }
-  /* line 742, assets\less\style.less */
-  body .wrap .main img {
-    width: 100%;
-    position: relative;
-    top: -40px;
-  }
-  /* line 747, assets\less\style.less */
-  body .wrap .main p {
-    width: 350px;
-    margin: auto;
-    height: 150px;
-    height: auto;
-    font-size: 24px;
-    position: relative;
-    top: 30%;
-  }
-  /* line 759, assets\less\style.less */
-  body .wrap .second ul {
-    height: 100%;
-  }
-  /* line 761, assets\less\style.less */
-  body .wrap .second ul li {
-    width: 50%;
-    img: 100%;
-  }
+  position: relative;
+  top: -26px;
+  left: 85px;
 }
 /* line 1, assets\less\footer.less */
 .footer {
@@ -3320,4 +3298,642 @@ body .wrap .blog ul li p.read:before {
   margin: 10px 0;
   background-color: #fff;
   width: 150px;
+}
+@media screen and (max-width: 479px) {
+  /* line 3, assets\less\style_media.less */
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 6, assets\less\style_media.less */
+  body .wrap {
+    width: auto;
+    height: auto;
+  }
+  /* line 9, assets\less\style_media.less */
+  body .wrap .main {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 13, assets\less\style_media.less */
+  body .wrap .main img {
+    width: 1920px;
+    margin: auto;
+    position: absolute;
+    top: -650px;
+  }
+  /* line 19, assets\less\style_media.less */
+  body .wrap .main p {
+    width: 350px;
+    margin: auto;
+    height: 150px;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: relative;
+    top: 40%;
+    z-index: 0;
+    text-align: center;
+    padding: 214px 0;
+  }
+  /* line 30, assets\less\style_media.less */
+  body .wrap .main p span {
+    border: 10px #8fd614 solid;
+    display: inline-block;
+    padding: 10px;
+    color: #FFF;
+  }
+  /* line 39, assets\less\style_media.less */
+  body .wrap .second ul {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  /* line 43, assets\less\style_media.less */
+  body .wrap .second ul li[class^="s-sub"] {
+    width: 50%;
+    float: left;
+  }
+  /* line 46, assets\less\style_media.less */
+  body .wrap .second ul li[class^="s-sub"] img {
+    width: 90%;
+    height: 90%;
+  }
+  /* line 51, assets\less\style_media.less */
+  body .wrap .second ul .s-sub1 {
+    position: relative;
+  }
+  /* line 53, assets\less\style_media.less */
+  body .wrap .second ul .s-sub1 .s_ve {
+    display: inline-block;
+    color: #FFF;
+    font-size: 28px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-transform: uppercase;
+  }
+  /* line 63, assets\less\style_media.less */
+  body .wrap .second ul .s-sub2 {
+    position: relative;
+  }
+  /* line 65, assets\less\style_media.less */
+  body .wrap .second ul .s-sub2 .s_fr {
+    display: inline-block;
+    color: #FFF;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  /* line 75, assets\less\style_media.less */
+  body .wrap .second ul .s-sub3 {
+    position: relative;
+  }
+  /* line 77, assets\less\style_media.less */
+  body .wrap .second ul .s-sub3 .s_si {
+    display: inline-block;
+    color: #FFF;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+  }
+  /* line 87, assets\less\style_media.less */
+  body .wrap .second ul .s-sub4 {
+    position: relative;
+  }
+  /* line 89, assets\less\style_media.less */
+  body .wrap .second ul .s-sub4 .s_pr {
+    display: inline-block;
+    color: #FFF;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+  }
+  /* line 101, assets\less\style_media.less */
+  body .wrap .third ul {
+    background-color: #000;
+    height: auto;
+    overflow: hidden;
+  }
+  /* line 105, assets\less\style_media.less */
+  body .wrap .third ul li {
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+  /* line 109, assets\less\style_media.less */
+  body .wrap .third ul li img {
+    width: 100%;
+  }
+  /* line 112, assets\less\style_media.less */
+  body .wrap .third ul li p:first-child {
+    font-size: 32px;
+    color: #FFF;
+    border: 1px #f00 solid;
+    position: relative;
+    top: 480px;
+    left: 3px;
+    height: 50px;
+  }
+  /* line 122, assets\less\style_media.less */
+  body .wrap .third ul li p:last-child {
+    font-size: 24px;
+    color: #FFF;
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px yellow solid;
+  }
+  /* line 132, assets\less\style_media.less */
+  body .wrap .farm-info {
+    height: 700px;
+    position: relative;
+  }
+  /* line 135, assets\less\style_media.less */
+  body .wrap .farm-info .title {
+    text-align: center;
+  }
+  /* line 137, assets\less\style_media.less */
+  body .wrap .farm-info .title h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  /* line 143, assets\less\style_media.less */
+  body .wrap .farm-info .title span {
+    display: block;
+  }
+  /* line 146, assets\less\style_media.less */
+  body .wrap .farm-info .title img {
+    padding: 10px;
+    width: 20px;
+  }
+  /* line 152, assets\less\style_media.less */
+  body .wrap .farm-info .box {
+    background-color: #4A210B;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 20%;
+    left: 20%;
+  }
+  /* line 159, assets\less\style_media.less */
+  body .wrap .farm-info .box .fi_top {
+    width: 100%;
+  }
+  /* line 161, assets\less\style_media.less */
+  body .wrap .farm-info .box .fi_top img {
+    width: 95%;
+    position: absolute;
+    top: -57px;
+    left: -86px;
+  }
+  /* line 168, assets\less\style_media.less */
+  body .wrap .farm-info .box .fi_left {
+    width: 90%;
+  }
+  /* line 170, assets\less\style_media.less */
+  body .wrap .farm-info .box .fi_left img {
+    width: 100%;
+    position: absolute;
+    top: 140px;
+    left: -24px;
+  }
+  /* line 177, assets\less\style_media.less */
+  body .wrap .farm-info .box .fi_right {
+    width: 100%;
+  }
+  /* line 179, assets\less\style_media.less */
+  body .wrap .farm-info .box .fi_right img {
+    width: 80%;
+    position: absolute;
+    top: 35px;
+    left: 168px;
+  }
+  /* line 199, assets\less\style_media.less */
+  body .wrap .pro-info .title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 203, assets\less\style_media.less */
+  body .wrap .pro-info .title h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  /* line 209, assets\less\style_media.less */
+  body .wrap .pro-info .title span {
+    display: block;
+  }
+  /* line 212, assets\less\style_media.less */
+  body .wrap .pro-info .title img {
+    padding: 10px;
+    width: 20px;
+  }
+  /* line 237, assets\less\style_media.less */
+  body .wrap .pro-info .pi {
+    position: relative;
+    background-image: url('../images/main/pro-info1.png');
+    background-repeat: repeat;
+    background-size: 50%;
+    height: 400px;
+  }
+  /* line 243, assets\less\style_media.less */
+  body .wrap .pro-info .pi ul {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 246, assets\less\style_media.less */
+  body .wrap .pro-info .pi ul li {
+    width: 25%;
+    float: left;
+  }
+  /* line 250, assets\less\style_media.less */
+  body .wrap .pro-info .pi ul .ve {
+    height: 400px;
+    background-color: rgba(44, 239, 67, 0.3);
+    position: absolute;
+    top: 0px;
+  }
+  /* line 256, assets\less\style_media.less */
+  body .wrap .pro-info .pi ul .fr {
+    height: 400px;
+    background-color: rgba(255, 245, 104, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 25%;
+  }
+  /* line 263, assets\less\style_media.less */
+  body .wrap .pro-info .pi ul .si {
+    height: 400px;
+    background-color: rgba(244, 111, 38, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+  }
+  /* line 270, assets\less\style_media.less */
+  body .wrap .pro-info .pi ul .pr {
+    height: 400px;
+    background-color: rgba(137, 44, 225, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 75%;
+  }
+  /* line 279, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub {
+    width: 100%;
+    overflow: hidden;
+  }
+  /* line 282, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 286, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .title h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  /* line 292, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .title span {
+    display: block;
+  }
+  /* line 295, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .title img {
+    padding: 10px;
+    width: 20px;
+  }
+  /* line 320, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub > img {
+    width: 50%;
+    margin: 30px 30px 30px 100px;
+    float: left;
+  }
+  /* line 327, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .ps-sub ul li {
+    width: 10%;
+    height: 50px;
+    float: left;
+  }
+  /* line 333, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .ps-sub ul li img {
+    width: 100%;
+  }
+  /* line 337, assets\less\style_media.less */
+  body .wrap .pro-info .pro-sub .ps-sub ul li span {
+    display: block;
+    width: 300px;
+    text-align: center;
+    clear: left;
+    text-transform: capitalize;
+  }
+  /* line 350, assets\less\style_media.less */
+  body .wrap .recipe {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 50px;
+  }
+  /* line 355, assets\less\style_media.less */
+  body .wrap .recipe .title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  /* line 359, assets\less\style_media.less */
+  body .wrap .recipe .title h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  /* line 365, assets\less\style_media.less */
+  body .wrap .recipe .title span {
+    display: block;
+  }
+  /* line 368, assets\less\style_media.less */
+  body .wrap .recipe .title img {
+    padding: 10px;
+    width: 20px;
+  }
+  /* line 393, assets\less\style_media.less */
+  body .wrap .recipe .rec_box {
+    margin: auto;
+    overflow: hidden;
+  }
+  /* line 396, assets\less\style_media.less */
+  body .wrap .recipe .rec_box .rb_left {
+    width: 30%;
+    height: 28%;
+    margin-left: 40px;
+  }
+  /* line 400, assets\less\style_media.less */
+  body .wrap .recipe .rec_box .rb_left img {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  /* line 407, assets\less\style_media.less */
+  body .wrap .recipe .rec_box .rb_right li {
+    width: 13.2%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 70px;
+    left: 145px;
+    margin-right: 10px;
+    z-index: 1;
+  }
+  /* line 417, assets\less\style_media.less */
+  body .wrap .recipe .rec_box .rb_right li img {
+    position: absolute;
+    top: -10px;
+    left: -225px;
+  }
+  /* line 424, assets\less\style_media.less */
+  body .wrap .recipe .rec_box .rb_sub {
+    width: 50%;
+    height: 380px;
+    background-color: #F36953;
+    position: relative;
+    top: 120px;
+    right: -46%;
+    z-index: 0;
+  }
+  /* line 436, assets\less\style_media.less */
+  body .wrap .com {
+    overflow: hidden;
+    background-image: url('../images/main/com_re.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  /* line 442, assets\less\style_media.less */
+  body .wrap .com h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #FFF;
+    position: relative;
+    top: 180px;
+    left: 367px;
+  }
+  /* line 450, assets\less\style_media.less */
+  body .wrap .com .com_sub {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  /* line 454, assets\less\style_media.less */
+  body .wrap .com .com_sub ul {
+    width: 1200px;
+    margin: auto;
+  }
+  /* line 458, assets\less\style_media.less */
+  body .wrap .com .com_sub li {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 200px 10px;
+  }
+  /* line 464, assets\less\style_media.less */
+  body .wrap .com .com_sub li p {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 25px;
+    margin: auto;
+    width: 300px;
+  }
+  /* line 471, assets\less\style_media.less */
+  body .wrap .com .com_sub li span[class^="cs_face"] {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    margin: 10px;
+  }
+  /* line 481, assets\less\style_media.less */
+  body .wrap .com .com_sub li .cs_facel {
+    background-image: url('../images/main/facel.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: -106px -4px;
+  }
+  /* line 487, assets\less\style_media.less */
+  body .wrap .com .com_sub li .cs_facem {
+    background-image: url('../images/main/facem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 492, assets\less\style_media.less */
+  body .wrap .com .com_sub li .cs_faceb {
+    background-image: url('../images/main/faceb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -19px 0px;
+  }
+  /* line 498, assets\less\style_media.less */
+  body .wrap .com .com_sub li .cs_name {
+    color: #FFF;
+    width: 30px;
+    height: 20px;
+    font-size: 14px;
+    position: relative;
+    top: -65px;
+    left: 125px;
+    text-transform: capitalize;
+  }
+  /* line 509, assets\less\style_media.less */
+  body .wrap .com .com_sub p:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../images/footer/qug.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 10px 0 10px;
+  }
+  /* line 521, assets\less\style_media.less */
+  body .wrap .blog {
+    background-image: url('../images/main/blog_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  /* line 526, assets\less\style_media.less */
+  body .wrap .blog .title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+  /* line 531, assets\less\style_media.less */
+  body .wrap .blog .title h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+  }
+  /* line 536, assets\less\style_media.less */
+  body .wrap .blog .title span {
+    display: block;
+  }
+  /* line 539, assets\less\style_media.less */
+  body .wrap .blog .title img {
+    padding: 10px;
+    width: 20px;
+  }
+  /* line 543, assets\less\style_media.less */
+  body .wrap .blog .title span.line:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #8FD614;
+    position: absolute;
+    top: 100px;
+    left: 815px;
+  }
+  /* line 553, assets\less\style_media.less */
+  body .wrap .blog .title span.line:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #8FD614;
+    position: absolute;
+    top: 100px;
+    left: 985px;
+  }
+  /* line 564, assets\less\style_media.less */
+  body .wrap .blog ul {
+    width: 1100px;
+    margin: auto;
+  }
+  /* line 568, assets\less\style_media.less */
+  body .wrap .blog ul li {
+    width: 31.5%;
+    float: left;
+    margin-left: 18px;
+  }
+  /* line 572, assets\less\style_media.less */
+  body .wrap .blog ul li img {
+    width: 100%;
+    height: 250px;
+  }
+  /* line 576, assets\less\style_media.less */
+  body .wrap .blog ul li p {
+    width: 300px;
+    margin-top: 5px;
+  }
+  /* line 580, assets\less\style_media.less */
+  body .wrap .blog ul li .date {
+    font-weight: bold;
+    color: grey;
+    position: relative;
+    margin: 20px 0;
+    text-transform: capitalize;
+  }
+  /* line 587, assets\less\style_media.less */
+  body .wrap .blog ul li .b_title {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  /* line 592, assets\less\style_media.less */
+  body .wrap .blog ul li .read {
+    font-weight: bold;
+    color: #546A79;
+    margin-top: 10px;
+  }
+  /* line 597, assets\less\style_media.less */
+  body .wrap .blog ul li p.date:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-image: url('../images/footer/chat.png');
+    background-repeat: no-repeat;
+  }
+  /* line 608, assets\less\style_media.less */
+  body .wrap .blog ul li p.date:before {
+    content: "5";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: 8px;
+  }
+  /* line 618, assets\less\style_media.less */
+  body .wrap .blog ul li p.read:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin-top: 10px;
+    background-image: url('../images/footer/plus.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -26px;
+    left: 85px;
+  }
 }
