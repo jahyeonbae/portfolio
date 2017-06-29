@@ -3349,26 +3349,26 @@ body .wrap .blog ul li p.read:after {
     padding: 10px;
     color: #FFF;
   }
-  /* line 39, assets\less\style_media.less */
+  /* line 40, assets\less\style_media.less */
   body .wrap .second ul {
     margin-top: 20px;
     overflow: hidden;
   }
-  /* line 43, assets\less\style_media.less */
+  /* line 44, assets\less\style_media.less */
   body .wrap .second ul li[class^="s-sub"] {
     width: 50%;
     float: left;
   }
-  /* line 46, assets\less\style_media.less */
+  /* line 47, assets\less\style_media.less */
   body .wrap .second ul li[class^="s-sub"] img {
     width: 90%;
     height: 90%;
   }
-  /* line 51, assets\less\style_media.less */
+  /* line 52, assets\less\style_media.less */
   body .wrap .second ul .s-sub1 {
     position: relative;
   }
-  /* line 53, assets\less\style_media.less */
+  /* line 54, assets\less\style_media.less */
   body .wrap .second ul .s-sub1 .s_ve {
     display: inline-block;
     color: #FFF;
@@ -3378,11 +3378,11 @@ body .wrap .blog ul li p.read:after {
     left: 30%;
     text-transform: uppercase;
   }
-  /* line 63, assets\less\style_media.less */
+  /* line 64, assets\less\style_media.less */
   body .wrap .second ul .s-sub2 {
     position: relative;
   }
-  /* line 65, assets\less\style_media.less */
+  /* line 66, assets\less\style_media.less */
   body .wrap .second ul .s-sub2 .s_fr {
     display: inline-block;
     color: #FFF;
@@ -3392,11 +3392,11 @@ body .wrap .blog ul li p.read:after {
     top: 40%;
     left: 40%;
   }
-  /* line 75, assets\less\style_media.less */
+  /* line 76, assets\less\style_media.less */
   body .wrap .second ul .s-sub3 {
     position: relative;
   }
-  /* line 77, assets\less\style_media.less */
+  /* line 78, assets\less\style_media.less */
   body .wrap .second ul .s-sub3 .s_si {
     display: inline-block;
     color: #FFF;
@@ -3406,11 +3406,11 @@ body .wrap .blog ul li p.read:after {
     top: 40%;
     left: 34%;
   }
-  /* line 87, assets\less\style_media.less */
+  /* line 88, assets\less\style_media.less */
   body .wrap .second ul .s-sub4 {
     position: relative;
   }
-  /* line 89, assets\less\style_media.less */
+  /* line 90, assets\less\style_media.less */
   body .wrap .second ul .s-sub4 .s_pr {
     display: inline-block;
     color: #FFF;
@@ -3420,23 +3420,23 @@ body .wrap .blog ul li p.read:after {
     top: 40%;
     left: 34%;
   }
-  /* line 101, assets\less\style_media.less */
+  /* line 102, assets\less\style_media.less */
   body .wrap .third ul {
     background-color: #000;
     height: auto;
     overflow: hidden;
   }
-  /* line 105, assets\less\style_media.less */
+  /* line 106, assets\less\style_media.less */
   body .wrap .third ul li {
     width: 100%;
     height: 100%;
     float: none;
   }
-  /* line 109, assets\less\style_media.less */
+  /* line 110, assets\less\style_media.less */
   body .wrap .third ul li img {
     width: 100%;
   }
-  /* line 112, assets\less\style_media.less */
+  /* line 113, assets\less\style_media.less */
   body .wrap .third ul li p:first-child {
     font-size: 32px;
     color: #FFF;
@@ -3446,7 +3446,7 @@ body .wrap .blog ul li p.read:after {
     left: 3px;
     height: 50px;
   }
-  /* line 122, assets\less\style_media.less */
+  /* line 123, assets\less\style_media.less */
   body .wrap .third ul li p:last-child {
     font-size: 24px;
     color: #FFF;
@@ -3454,32 +3454,32 @@ body .wrap .blog ul li p.read:after {
     margin-top: 30px;
     border: 1px yellow solid;
   }
-  /* line 132, assets\less\style_media.less */
+  /* line 133, assets\less\style_media.less */
   body .wrap .farm-info {
     height: 700px;
     position: relative;
   }
-  /* line 135, assets\less\style_media.less */
+  /* line 136, assets\less\style_media.less */
   body .wrap .farm-info .title {
     text-align: center;
   }
-  /* line 137, assets\less\style_media.less */
+  /* line 138, assets\less\style_media.less */
   body .wrap .farm-info .title h4 {
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
     margin-top: 50px;
   }
-  /* line 143, assets\less\style_media.less */
+  /* line 144, assets\less\style_media.less */
   body .wrap .farm-info .title span {
     display: block;
   }
-  /* line 146, assets\less\style_media.less */
+  /* line 147, assets\less\style_media.less */
   body .wrap .farm-info .title img {
     padding: 10px;
     width: 20px;
   }
-  /* line 152, assets\less\style_media.less */
+  /* line 153, assets\less\style_media.less */
   body .wrap .farm-info .box {
     background-color: #4A210B;
     width: 250px;
@@ -3488,85 +3488,85 @@ body .wrap .blog ul li p.read:after {
     top: 20%;
     left: 20%;
   }
-  /* line 159, assets\less\style_media.less */
+  /* line 160, assets\less\style_media.less */
   body .wrap .farm-info .box .fi_top {
     width: 100%;
   }
-  /* line 161, assets\less\style_media.less */
+  /* line 162, assets\less\style_media.less */
   body .wrap .farm-info .box .fi_top img {
     width: 95%;
     position: absolute;
     top: -57px;
     left: -86px;
   }
-  /* line 168, assets\less\style_media.less */
+  /* line 169, assets\less\style_media.less */
   body .wrap .farm-info .box .fi_left {
     width: 90%;
   }
-  /* line 170, assets\less\style_media.less */
+  /* line 171, assets\less\style_media.less */
   body .wrap .farm-info .box .fi_left img {
     width: 100%;
     position: absolute;
     top: 140px;
     left: -24px;
   }
-  /* line 177, assets\less\style_media.less */
+  /* line 178, assets\less\style_media.less */
   body .wrap .farm-info .box .fi_right {
     width: 100%;
   }
-  /* line 179, assets\less\style_media.less */
+  /* line 180, assets\less\style_media.less */
   body .wrap .farm-info .box .fi_right img {
     width: 80%;
     position: absolute;
     top: 35px;
     left: 168px;
   }
-  /* line 199, assets\less\style_media.less */
+  /* line 201, assets\less\style_media.less */
   body .wrap .pro-info .title {
     text-align: center;
     position: relative;
     margin-bottom: 30px;
   }
-  /* line 203, assets\less\style_media.less */
+  /* line 205, assets\less\style_media.less */
   body .wrap .pro-info .title h4 {
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
     margin-top: 50px;
   }
-  /* line 209, assets\less\style_media.less */
+  /* line 211, assets\less\style_media.less */
   body .wrap .pro-info .title span {
     display: block;
   }
-  /* line 212, assets\less\style_media.less */
+  /* line 214, assets\less\style_media.less */
   body .wrap .pro-info .title img {
     padding: 10px;
     width: 20px;
   }
-  /* line 237, assets\less\style_media.less */
+  /* line 239, assets\less\style_media.less */
   body .wrap .pro-info .pi {
     position: relative;
     background-image: url('../images/main/pro-info1.png');
     background-repeat: repeat;
     background-size: 50%;
   }
-  /* line 242, assets\less\style_media.less */
+  /* line 244, assets\less\style_media.less */
   body .wrap .pro-info .pi ul {
     width: 100%;
     height: 100%;
   }
-  /* line 245, assets\less\style_media.less */
+  /* line 247, assets\less\style_media.less */
   body .wrap .pro-info .pi ul li {
     width: 25%;
   }
-  /* line 248, assets\less\style_media.less */
+  /* line 250, assets\less\style_media.less */
   body .wrap .pro-info .pi ul .ve {
     height: 400px;
     background-color: rgba(44, 239, 67, 0.3);
     position: absolute;
     top: 0px;
   }
-  /* line 254, assets\less\style_media.less */
+  /* line 256, assets\less\style_media.less */
   body .wrap .pro-info .pi ul .fr {
     height: 400px;
     background-color: rgba(255, 245, 104, 0.3);
@@ -3574,7 +3574,7 @@ body .wrap .blog ul li p.read:after {
     top: 0px;
     left: 25%;
   }
-  /* line 261, assets\less\style_media.less */
+  /* line 263, assets\less\style_media.less */
   body .wrap .pro-info .pi ul .si {
     height: 400px;
     background-color: rgba(244, 111, 38, 0.3);
@@ -3582,7 +3582,7 @@ body .wrap .blog ul li p.read:after {
     top: 0px;
     left: 50%;
   }
-  /* line 268, assets\less\style_media.less */
+  /* line 270, assets\less\style_media.less */
   body .wrap .pro-info .pi ul .pr {
     height: 400px;
     background-color: rgba(137, 44, 225, 0.3);
@@ -3590,43 +3590,43 @@ body .wrap .blog ul li p.read:after {
     top: 0px;
     left: 75%;
   }
-  /* line 277, assets\less\style_media.less */
+  /* line 280, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub {
     width: 100%;
   }
-  /* line 279, assets\less\style_media.less */
+  /* line 282, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .title {
     text-align: center;
     position: relative;
   }
-  /* line 282, assets\less\style_media.less */
+  /* line 285, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .title h4 {
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
     margin-top: 50px;
   }
-  /* line 288, assets\less\style_media.less */
+  /* line 291, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .title span {
     display: block;
   }
-  /* line 312, assets\less\style_media.less */
+  /* line 315, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .ps-top {
     width: 400px;
-    margin: auto;
   }
-  /* line 315, assets\less\style_media.less */
+  /* line 317, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .ps-top img {
     width: 100%;
+    margin: 30px;
   }
-  /* line 320, assets\less\style_media.less */
+  /* line 323, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .ps-sub ul {
     height: 100%;
     overflow: hidden;
     margin: auto;
     width: 850px;
   }
-  /* line 325, assets\less\style_media.less */
+  /* line 328, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .ps-sub ul li {
     width: 8%;
     height: 8%;
@@ -3634,12 +3634,12 @@ body .wrap .blog ul li p.read:after {
     padding: 0;
     margin: 5px;
   }
-  /* line 331, assets\less\style_media.less */
+  /* line 334, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .ps-sub ul li img {
     width: 100%;
     height: 100%;
   }
-  /* line 335, assets\less\style_media.less */
+  /* line 338, assets\less\style_media.less */
   body .wrap .pro-info .pro-sub .ps-sub ul li span {
     text-transform: capitalize;
     font-size: 12px;
@@ -3647,54 +3647,54 @@ body .wrap .blog ul li p.read:after {
     width: 100px;
     display: none;
   }
-  /* line 348, assets\less\style_media.less */
+  /* line 351, assets\less\style_media.less */
   body .wrap .recipe {
     width: 100%;
     height: 100%;
     overflow: hidden;
     margin-bottom: 20px;
   }
-  /* line 353, assets\less\style_media.less */
+  /* line 356, assets\less\style_media.less */
   body .wrap .recipe .title {
     text-align: center;
     position: relative;
     margin-bottom: 50px;
   }
-  /* line 357, assets\less\style_media.less */
+  /* line 360, assets\less\style_media.less */
   body .wrap .recipe .title h4 {
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
     margin-top: 50px;
   }
-  /* line 363, assets\less\style_media.less */
+  /* line 366, assets\less\style_media.less */
   body .wrap .recipe .title span {
     display: block;
   }
-  /* line 366, assets\less\style_media.less */
+  /* line 369, assets\less\style_media.less */
   body .wrap .recipe .title img {
     padding: 10px;
     width: 20px;
   }
-  /* line 391, assets\less\style_media.less */
+  /* line 394, assets\less\style_media.less */
   body .wrap .recipe .rec_box {
     margin: auto;
     overflow: hidden;
   }
-  /* line 395, assets\less\style_media.less */
+  /* line 398, assets\less\style_media.less */
   body .wrap .recipe .rec_box .rb_left {
     width: 30%;
     height: 28%;
     margin-left: 40px;
   }
-  /* line 399, assets\less\style_media.less */
+  /* line 402, assets\less\style_media.less */
   body .wrap .recipe .rec_box .rb_left img {
     width: 100%;
     float: left;
     margin-bottom: 20px;
     display: none;
   }
-  /* line 408, assets\less\style_media.less */
+  /* line 411, assets\less\style_media.less */
   body .wrap .recipe .rec_box .rb_right li {
     width: 13.2%;
     height: 400px;
@@ -3703,13 +3703,13 @@ body .wrap .blog ul li p.read:after {
     top: -20px;
     left: 100px;
   }
-  /* line 417, assets\less\style_media.less */
+  /* line 420, assets\less\style_media.less */
   body .wrap .recipe .rec_box .rb_right li img {
     position: absolute;
     top: -10px;
     left: -225px;
   }
-  /* line 424, assets\less\style_media.less */
+  /* line 427, assets\less\style_media.less */
   body .wrap .recipe .rec_box .rb_sub {
     width: 50%;
     height: 380px;
@@ -3718,7 +3718,7 @@ body .wrap .blog ul li p.read:after {
     top: 40px;
     right: -170px;
   }
-  /* line 434, assets\less\style_media.less */
+  /* line 438, assets\less\style_media.less */
   body .wrap .com {
     overflow: hidden;
     background-image: url('../images/main/com_re.png');
@@ -3726,35 +3726,33 @@ body .wrap .blog ul li p.read:after {
     background-size: cover;
     position: relative;
   }
-  /* line 440, assets\less\style_media.less */
+  /* line 444, assets\less\style_media.less */
   body .wrap .com h4 {
     text-transform: uppercase;
     font-size: 24px;
     color: #FFF;
     position: absolute;
-    top: 150px;
-    left: 20px;
+    top: 100px;
+    left: 110px;
   }
-  /* line 448, assets\less\style_media.less */
+  /* line 452, assets\less\style_media.less */
   body .wrap .com .com_sub {
     width: 100%;
     height: 100%;
     overflow: hidden;
   }
-  /* line 452, assets\less\style_media.less */
+  /* line 456, assets\less\style_media.less */
   body .wrap .com .com_sub ul {
-    width: 1200px;
     margin: auto;
   }
-  /* line 456, assets\less\style_media.less */
+  /* line 460, assets\less\style_media.less */
   body .wrap .com .com_sub li {
     width: 30%;
     height: 100%;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.1);
-    margin: 200px 10px;
+    background-color: rgba(250, 250, 250, 0.1);
+    margin-left: 20px;
   }
-  /* line 462, assets\less\style_media.less */
+  /* line 465, assets\less\style_media.less */
   body .wrap .com .com_sub li p {
     color: #FFF;
     font-size: 14px;
@@ -3762,7 +3760,7 @@ body .wrap .blog ul li p.read:after {
     margin: auto;
     width: 300px;
   }
-  /* line 469, assets\less\style_media.less */
+  /* line 472, assets\less\style_media.less */
   body .wrap .com .com_sub li span[class^="cs_face"] {
     display: block;
     width: 80px;
@@ -3773,27 +3771,27 @@ body .wrap .blog ul li p.read:after {
     left: 5%;
     margin: 10px;
   }
-  /* line 479, assets\less\style_media.less */
+  /* line 482, assets\less\style_media.less */
   body .wrap .com .com_sub li .cs_facel {
     background-image: url('../images/main/facel.jpg');
     background-repeat: no-repeat;
     background-size: 200px 200px;
     background-position: -106px -4px;
   }
-  /* line 485, assets\less\style_media.less */
+  /* line 488, assets\less\style_media.less */
   body .wrap .com .com_sub li .cs_facem {
     background-image: url('../images/main/facem.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* line 490, assets\less\style_media.less */
+  /* line 493, assets\less\style_media.less */
   body .wrap .com .com_sub li .cs_faceb {
     background-image: url('../images/main/faceb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -19px 0px;
   }
-  /* line 496, assets\less\style_media.less */
+  /* line 499, assets\less\style_media.less */
   body .wrap .com .com_sub li .cs_name {
     color: #FFF;
     width: 30px;
@@ -3804,7 +3802,7 @@ body .wrap .blog ul li p.read:after {
     left: 125px;
     text-transform: capitalize;
   }
-  /* line 507, assets\less\style_media.less */
+  /* line 510, assets\less\style_media.less */
   body .wrap .com .com_sub p:before {
     content: "";
     width: 20px;
@@ -3815,36 +3813,36 @@ body .wrap .blog ul li p.read:after {
     background-size: cover;
     margin: 10px 10px 0 10px;
   }
-  /* line 520, assets\less\style_media.less */
+  /* line 523, assets\less\style_media.less */
   body .wrap .blog {
     background-image: url('../images/main/blog_1.png');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
   }
-  /* line 525, assets\less\style_media.less */
+  /* line 528, assets\less\style_media.less */
   body .wrap .blog .title {
     text-align: center;
     position: relative;
     margin-bottom: 30px;
     padding-top: 20px;
   }
-  /* line 530, assets\less\style_media.less */
+  /* line 533, assets\less\style_media.less */
   body .wrap .blog .title h4 {
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
   }
-  /* line 535, assets\less\style_media.less */
+  /* line 538, assets\less\style_media.less */
   body .wrap .blog .title span {
     display: block;
   }
-  /* line 538, assets\less\style_media.less */
+  /* line 541, assets\less\style_media.less */
   body .wrap .blog .title img {
     padding: 10px;
     width: 20px;
   }
-  /* line 542, assets\less\style_media.less */
+  /* line 545, assets\less\style_media.less */
   body .wrap .blog .title span.line:before {
     content: "";
     display: block;
@@ -3855,7 +3853,7 @@ body .wrap .blog ul li p.read:after {
     top: 100px;
     left: 815px;
   }
-  /* line 552, assets\less\style_media.less */
+  /* line 555, assets\less\style_media.less */
   body .wrap .blog .title span.line:after {
     content: "";
     display: block;
@@ -3866,28 +3864,27 @@ body .wrap .blog ul li p.read:after {
     top: 100px;
     left: 985px;
   }
-  /* line 563, assets\less\style_media.less */
+  /* line 566, assets\less\style_media.less */
   body .wrap .blog ul {
     width: 1100px;
     margin: auto;
   }
-  /* line 567, assets\less\style_media.less */
+  /* line 570, assets\less\style_media.less */
   body .wrap .blog ul li {
     width: 31.5%;
-    float: left;
-    margin-left: 18px;
+    margin: 30px;
   }
-  /* line 571, assets\less\style_media.less */
+  /* line 574, assets\less\style_media.less */
   body .wrap .blog ul li img {
     width: 100%;
     height: 250px;
   }
-  /* line 575, assets\less\style_media.less */
+  /* line 578, assets\less\style_media.less */
   body .wrap .blog ul li p {
     width: 300px;
     margin-top: 5px;
   }
-  /* line 579, assets\less\style_media.less */
+  /* line 582, assets\less\style_media.less */
   body .wrap .blog ul li .date {
     font-weight: bold;
     color: grey;
@@ -3895,19 +3892,19 @@ body .wrap .blog ul li p.read:after {
     margin: 20px 0;
     text-transform: capitalize;
   }
-  /* line 586, assets\less\style_media.less */
+  /* line 589, assets\less\style_media.less */
   body .wrap .blog ul li .b_title {
     font-weight: bold;
     margin: 10px 0;
     font-size: 20px;
   }
-  /* line 591, assets\less\style_media.less */
+  /* line 594, assets\less\style_media.less */
   body .wrap .blog ul li .read {
     font-weight: bold;
     color: #546A79;
     margin-top: 10px;
   }
-  /* line 596, assets\less\style_media.less */
+  /* line 599, assets\less\style_media.less */
   body .wrap .blog ul li p.date:after {
     content: "";
     width: 20px;
@@ -3919,7 +3916,7 @@ body .wrap .blog ul li p.read:after {
     background-image: url('../images/footer/chat.png');
     background-repeat: no-repeat;
   }
-  /* line 607, assets\less\style_media.less */
+  /* line 610, assets\less\style_media.less */
   body .wrap .blog ul li p.date:before {
     content: "5";
     width: 20px;
@@ -3929,7 +3926,7 @@ body .wrap .blog ul li p.read:after {
     top: -2px;
     right: 8px;
   }
-  /* line 617, assets\less\style_media.less */
+  /* line 620, assets\less\style_media.less */
   body .wrap .blog ul li p.read:after {
     content: "";
     width: 15px;
@@ -3942,5 +3939,98 @@ body .wrap .blog ul li p.read:after {
     position: relative;
     top: -26px;
     left: 85px;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 3, assets\less\footer_media.less */
+  .footer {
+    height: 400px;
+    background-image: url('../images/footer/footer_3.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
+  }
+  /* line 9, assets\less\footer_media.less */
+  .footer .f_left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    border: 1px #F00 solid;
+  }
+  /* line 17, assets\less\footer_media.less */
+  .footer .f_left p {
+    color: #FFF;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 400px;
+    border: 1px #F00 solid;
+  }
+  /* line 25, assets\less\footer_media.less */
+  .footer .f_left li {
+    float: left;
+    padding: 5px 20px 5px 5px;
+  }
+  /* line 30, assets\less\footer_media.less */
+  .footer .f_right {
+    margin-left: 800px;
+    height: 100%;
+    position: relative;
+    top: 80px;
+  }
+  /* line 36, assets\less\footer_media.less */
+  .footer .f_right li {
+    float: left;
+    padding: 5px;
+    margin-right: 50px;
+    text-align: center;
+    width: 20%;
+  }
+  /* line 42, assets\less\footer_media.less */
+  .footer .f_right li .s_mail {
+    width: 230px;
+    height: 30px;
+    white-space: normal;
+    background-color: #8fd614;
+    background-image: url('../images/footer/sm.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+  }
+  /* line 51, assets\less\footer_media.less */
+  .footer .f_right li .s_mail .sm_sub {
+    font-size: 12px;
+    background-color: #fff;
+    height: 26px;
+    width: 150px;
+    padding-right: 50px;
+    position: relative;
+    top: 0;
+    left: -23px;
+  }
+  /* line 62, assets\less\footer_media.less */
+  .footer .f_right li p {
+    color: #FFF;
+    font-size: 14px;
+    padding: 30px 0;
+  }
+  /* line 67, assets\less\footer_media.less */
+  .footer .f_right li a {
+    color: #FFF;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  /* line 74, assets\less\footer_media.less */
+  .footer .f_right .contact .c_sub {
+    margin-top: 30px;
+  }
+  /* line 76, assets\less\footer_media.less */
+  .footer .f_right .contact .c_sub span {
+    display: inline-block;
+    color: #FFF;
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 }
