@@ -1,0 +1,16 @@
+/* line 17, assets/less/referance.less */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+/* line 22, assets/less/referance.less */
+.gnb .top {
+  height: 50px;
+  background-color: #8fd614;
+}
+/* line 27, assets/less/referance.less */
+.gnb .menu {
+  height: 70px;
+  background-color: #304021;
+}

@@ -1,0 +1,33 @@
+//variable
+@top_height : 50px;
+@menu_height : 70px;
+
+@color-sub:#8fd614;
+@color-main:#304021;
+
+
+//mixin
+.outline(){
+    border:1px #F00 solid;
+}
+//option
+
+
+//common
+body,html{margin:0; padding:0;}
+
+
+//layout
+.gnb{
+    .top{
+        height:@top_height;
+        background-color: @color-sub;
+        
+    }
+    .menu{
+        height: @menu_height;
+         background-color: @color-main;
+        
+    }
+    
+}
