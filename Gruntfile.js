@@ -41,12 +41,14 @@ module.exports = function(grunt) {
         }
     },
     includes: {
-        cwd: 'src', //includes를 시킬 파일이 있는 곳
-        src: ['**/*.html'], // Source files
-        dest: 'dist', // Destination directory
-        options: {
-          flatten: true,
-          includePath:'src/views/includes/'
+        dist:{
+            cwd: 'html', //includes를 시킬 파일이 있는 곳
+            src: ['**/*.html'], // Source files
+            dest: 'farm_dist', // Destination directory
+            options: {
+              flatten: true,
+              includePath:'html/'
+            }
         }
       }
 });
