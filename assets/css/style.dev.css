@@ -1,32 +1,169 @@
-/* line 17, assets/less/referance.less */
+/* line 22, assets/less/referance.less */
 body,
 html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
-/* line 22, assets/less/referance.less */
+/* line 24, assets/less/referance.less */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 28, assets/less/referance.less */
 .gnb .top {
   height: 50px;
   background-color: #8fd614;
 }
-/* line 27, assets/less/referance.less */
+/* line 33, assets/less/referance.less */
 .gnb .menu {
   height: 70px;
   background-color: #304021;
 }
-/* line 35, assets/less/referance.less */
+/* line 37, assets/less/referance.less */
+.gnb .menu div ul {
+  overflow: hidden;
+}
+/* line 40, assets/less/referance.less */
+.gnb .menu div ul li {
+  float: left;
+  line-height: 70px;
+  width: 20%;
+  text-align: center;
+}
+/* line 45, assets/less/referance.less */
+.gnb .menu div ul li a {
+  color: #FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 58, assets/less/referance.less */
 .sec {
   height: 100%;
 }
-/* line 37, assets/less/referance.less */
-.sec .intro {
-  height: 50%;
-  border: 1px blue solid;
+/* line 63, assets/less/referance.less */
+.main {
+  height: calc(100% - 120px);
 }
-/* line 41, assets/less/referance.less */
-.sec .lastest {
-  height: 300px;
-  padding: 20px 0;
-  border: 1px green solid;
+/* line 68, assets/less/referance.less */
+.intro {
+  position: relative;
+  height: 50%;
+  overflow: hidden;
+  transition: 1s;
+}
+/* line 74, assets/less/referance.less */
+.intro img {
+  width: 100%;
+  transform: scale(1.05);
+  filter: grayscale(40%);
+  transition: 1s;
+}
+/* line 80, assets/less/referance.less */
+.intro::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 90, assets/less/referance.less */
+.intro:hover img {
+  filter: grayscale(80%);
+  transform: scale(1.2) rotate(3deg);
+}
+/* line 94, assets/less/referance.less */
+.intro .biz_name {
+  overflow: hidden;
+  font-size: 0;
+  width: 400px;
+  height: 200px;
+  border: 10px solid #8fd614;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+  font-size: 45px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 1s;
+}
+/* line 111, assets/less/referance.less */
+.intro .biz_name::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+/* line 117, assets/less/referance.less */
+.intro .biz_name > span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 46px;
+  line-height: 40px;
+}
+/* line 129, assets/less/referance.less */
+.lastest {
+  padding: 20px;
+  height: 50%;
+  box-sizing: border-box;
+  border: 1px red solid;
+}
+/* line 134, assets/less/referance.less */
+.lastest li {
+  height: 250px;
+  overflow: hidden;
+  border: 1px red solid;
+}
+/* line 138, assets/less/referance.less */
+.lastest li img {
+  height: 100%;
+}
+@media screen and (max-width: 970px) {
+  /* line 145, assets/less/referance.less */
+  .intro {
+    height: 100%;
+    border: 1px red solid;
+  }
+  /* line 152, assets/less/referance.less */
+  .lastest li {
+    margin-bottom: 20px;
+  }
+  /* line 154, assets/less/referance.less */
+  .lastest li img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 166, assets/less/referance.less */
+  .intro {
+    height: 100%;
+    border: 1px red solid;
+  }
+  /* line 170, assets/less/referance.less */
+  .intro img {
+    height: 100%;
+    width: auto;
+  }
+  /* line 175, assets/less/referance.less */
+  .intro .biz_name {
+    font-size: 0;
+    width: 200px;
+    height: 300px;
+    margin-left: -100px;
+    margin-top: -150px;
+  }
+  /* line 181, assets/less/referance.less */
+  .intro .biz_name span {
+    font-size: 36px;
+  }
 }

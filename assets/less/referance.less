@@ -5,6 +5,11 @@
 @color-sub:#8fd614;
 @color-main:#304021;
 
+@labtop:970px;
+@mobile:480px;
+@tablet:750px;
+
+
 
 //mixin
 .outline(@c:red){
@@ -16,6 +21,7 @@
 //common
 body,html{margin:0; padding:0; height:100%;}
 
+ul{list-style: none; margin:0; padding:0;}
 
 //layout
 .gnb{
@@ -27,8 +33,155 @@ body,html{margin:0; padding:0; height:100%;}
     .menu{
         height: @menu_height;
          background-color: @color-main;
-        
+         
+        div ul{
+            overflow:hidden;
+
+            li{
+                float:left; 
+                line-height:70px;
+                width:100% / 5;
+                text-align:center;
+                a{
+                    color:#FFF;
+                    font-size:16px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+
+                }
+            }
+        } 
     }
     
 }
 
+.sec{
+    height:100%;
+    
+}
+
+.main{
+    height:~"calc(100% - 120px)";
+    
+}
+
+.intro{
+    position:relative;
+    height:50%;
+    overflow:hidden;
+    transition:1s;
+   
+    img{
+        width:100%;
+        transform: scale(1.05);
+        filter:grayscale(40%);
+        transition:1s;
+    }
+     &::before{
+            content:"";
+            position:absolute;
+            left:0;
+            top:0;
+            bottom: 0;
+            right:0;
+            z-index: 1;
+            background-color:rgba(0,0,0,0.5);
+    }
+    &:hover img{
+        filter:grayscale(80%);
+        transform: scale(1.2) rotate(3deg);
+    }        
+    .biz_name{
+        overflow:hidden;
+        font-size:0;
+        width:400px;
+        height:200px;
+        border:10px solid @color-sub;
+        position:absolute;
+        z-index:10;
+        top:50%; 
+        left:50%;
+        margin-top:-100px;
+        margin-left:-200px;
+        font-size:45px;
+        color:#FFF;
+        text-transform: uppercase;
+        text-align: center;
+        transition:1s;
+        &::before{
+            content:"";
+            display:inline-block;
+            height:100%;
+            vertical-align: middle;
+        }
+        >span{
+            display:inline-block;
+            vertical-align: middle;
+            font-size:46px;
+            line-height:40px;
+            
+        }
+
+    }
+
+}
+
+.lastest{
+    padding:20px;
+    height:50%;
+    box-sizing: border-box;
+    .outline();
+    li{
+        height:250px;
+        overflow:hidden;
+        .outline();
+        img{
+            height:100%;
+        }
+    }
+}
+
+@media screen and (max-width:@labtop){
+    .intro{
+        height:100%;
+        .outline();
+    }
+
+    .lastest{
+    
+        li {
+            margin-bottom:20px;
+            img{
+                    width:100%;
+                    height:auto;
+                }
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width:@mobile){
+    .intro{
+        height:100%;
+        .outline();
+
+        img{
+            height:100%;
+            width:auto;
+        }
+
+        .biz_name{
+            font-size:0;
+            width:200px;
+            height:300px;
+            margin-left:-100px;
+            margin-top:-150px;
+            span{
+                font-size:36px;
+            }
+        }
+    }
+
+}
