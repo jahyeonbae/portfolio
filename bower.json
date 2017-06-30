@@ -14,16 +14,24 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "Dependencies": {
     "bootstrap": "^3.3.7",
     "jquery-parallax": "^1.1.3"
   },
   "install": {
-    "base": "assets",
+    "base": "assets/libs",
     "path": {
-      "js": "lib/{name}/js",
-      "css": "lib/{name}/css",
-      "less": "lib/{name}/less"
+      "js": "{name}/js",
+      "css": "{name}/css",
+      "less": "{name}/less"
+    },
+    "sources":{
+      "bootstrap":[
+        "bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "bower_components/bootstrap/dist/css/bootstrap-theme.min.css",
+        "bower_components/bootstrap/dist/css/bootstrap.min.css"
+      ],
+      "jquery":"bower_components/jquery/dist/jquery.min.js"
     }
   }
 }

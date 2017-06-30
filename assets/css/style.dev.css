@@ -3,6 +3,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 /* line 22, assets/less/referance.less */
 .gnb .top {
@@ -13,4 +14,19 @@ html {
 .gnb .menu {
   height: 70px;
   background-color: #304021;
+}
+/* line 35, assets/less/referance.less */
+.sec {
+  height: 100%;
+}
+/* line 37, assets/less/referance.less */
+.sec .intro {
+  height: 50%;
+  border: 1px blue solid;
+}
+/* line 41, assets/less/referance.less */
+.sec .lastest {
+  height: 300px;
+  padding: 20px 0;
+  border: 1px green solid;
 }
