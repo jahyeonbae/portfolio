@@ -22,750 +22,35 @@ img {
 .hidden {
   display: none;
 }
-/* line 1, assets\less\style.less */
-body {
-  width: 100%;
-  height: 100%;
+@keyframes tomato {
+  /* line 19, assets\less\common.less */
+  0% {
+    left: -2px;
+  }
+  /* line 20, assets\less\common.less */
+  100% {
+    left: 2px;
+  }
 }
-/* line 5, assets\less\style.less */
-body .wrap {
-  width: auto;
-  height: auto;
+/* line 22, assets\less\common.less */
+.title {
+  transition: 1s;
 }
-/* line 9, assets\less\style.less */
-body .wrap .main {
-  overflow: hidden;
+/* line 25, assets\less\common.less */
+.title > img:hover {
   position: relative;
-}
-/* line 16, assets\less\style.less */
-body .wrap .main img {
-  width: 1920px;
-  margin: auto;
-  position: absolute;
-  top: -650px;
-}
-/* line 22, assets\less\style.less */
-body .wrap .main p {
-  width: 350px;
-  margin: auto;
-  height: 150px;
-  font-size: 48px;
-  text-transform: uppercase;
-  position: relative;
-  top: 40%;
-  z-index: 0;
-  text-align: center;
-  padding: 214px 0;
-}
-/* line 33, assets\less\style.less */
-body .wrap .main p span {
-  border: 10px #8fd614 solid;
-  display: inline-block;
-  padding: 10px;
-  color: #FFF;
-}
-/* line 42, assets\less\style.less */
-body .wrap .second ul {
-  height: 300px;
-  overflow: hidden;
-  margin-top: 20px;
-}
-/* line 47, assets\less\style.less */
-body .wrap .second ul li[class^="s-sub"] {
-  width: 25%;
-  height: 100%;
-  float: left;
-  text-align: center;
-}
-/* line 52, assets\less\style.less */
-body .wrap .second ul li[class^="s-sub"] img {
-  width: 90%;
-  height: 90%;
-}
-/* line 57, assets\less\style.less */
-body .wrap .second ul .s-sub1 {
-  position: relative;
-}
-/* line 59, assets\less\style.less */
-body .wrap .second ul .s-sub1 .s_ve {
-  display: inline-block;
-  color: #FFF;
-  font-size: 32px;
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  text-transform: uppercase;
-}
-/* line 69, assets\less\style.less */
-body .wrap .second ul .s-sub2 {
-  position: relative;
-}
-/* line 71, assets\less\style.less */
-body .wrap .second ul .s-sub2 .s_fr {
-  display: inline-block;
-  color: #FFF;
-  font-size: 32px;
-  text-transform: uppercase;
-  position: absolute;
-  top: 40%;
-  left: 40%;
-}
-/* line 81, assets\less\style.less */
-body .wrap .second ul .s-sub3 {
-  position: relative;
-}
-/* line 83, assets\less\style.less */
-body .wrap .second ul .s-sub3 .s_si {
-  display: inline-block;
-  color: #FFF;
-  font-size: 32px;
-  text-transform: uppercase;
-  position: absolute;
-  top: 40%;
-  left: 34%;
-}
-/* line 93, assets\less\style.less */
-body .wrap .second ul .s-sub4 {
-  position: relative;
-}
-/* line 95, assets\less\style.less */
-body .wrap .second ul .s-sub4 .s_pr {
-  display: inline-block;
-  color: #FFF;
-  font-size: 32px;
-  text-transform: uppercase;
-  position: absolute;
-  top: 40%;
-  left: 34%;
-}
-/* line 107, assets\less\style.less */
-body .wrap .third ul {
-  background-color: #000;
-  height: 508px;
-}
-/* line 110, assets\less\style.less */
-body .wrap .third ul li {
-  width: 40%;
-  float: left;
-}
-/* line 113, assets\less\style.less */
-body .wrap .third ul li img {
-  width: 100%;
-  float: left;
-}
-/* line 117, assets\less\style.less */
-body .wrap .third ul li p {
-  position: relative;
-  left: 200px;
-  top: 100px;
-}
-/* line 122, assets\less\style.less */
-body .wrap .third ul li p:first-child {
-  font-size: 60px;
-  text-align: center;
-  color: #FFF;
-}
-/* line 127, assets\less\style.less */
-body .wrap .third ul li p:last-child {
-  font-size: 24px;
-  text-align: center;
-  color: #FFF;
-  display: inline-block;
-  margin-top: 30px;
-}
-/* line 137, assets\less\style.less */
-body .wrap .farm-info {
-  height: 700px;
-  position: relative;
-}
-/* line 140, assets\less\style.less */
-body .wrap .farm-info .title {
-  text-align: center;
-}
-/* line 142, assets\less\style.less */
-body .wrap .farm-info .title h4 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-  margin-top: 50px;
-}
-/* line 148, assets\less\style.less */
-body .wrap .farm-info .title span {
-  display: block;
-}
-/* line 151, assets\less\style.less */
-body .wrap .farm-info .title img {
-  padding: 10px;
-  width: 20px;
-}
-/* line 155, assets\less\style.less */
-body .wrap .farm-info .title span.line:before {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 815px;
-}
-/* line 165, assets\less\style.less */
-body .wrap .farm-info .title span.line:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 985px;
-}
-/* line 177, assets\less\style.less */
-body .wrap .farm-info .box {
-  background-color: #4A210B;
-  width: 250px;
-  height: 250px;
-  position: relative;
-  top: 20%;
-  left: 20%;
-}
-/* line 184, assets\less\style.less */
-body .wrap .farm-info .box .fi_top {
-  width: 100%;
-}
-/* line 186, assets\less\style.less */
-body .wrap .farm-info .box .fi_top img {
-  width: 160%;
-  position: absolute;
-  top: -150px;
-  left: -245px;
-}
-/* line 193, assets\less\style.less */
-body .wrap .farm-info .box .fi_left {
-  width: 100%;
-}
-/* line 195, assets\less\style.less */
-body .wrap .farm-info .box .fi_left img {
-  width: 170%;
-  position: absolute;
-  top: 165px;
-  left: -210px;
-}
-/* line 202, assets\less\style.less */
-body .wrap .farm-info .box .fi_right {
-  width: 100%;
-}
-/* line 204, assets\less\style.less */
-body .wrap .farm-info .box .fi_right img {
-  width: 150%;
-  position: absolute;
-  top: -55px;
-  left: 170px;
-}
-/* line 212, assets\less\style.less */
-body .wrap .farm-info p {
-  display: inline-block;
-  width: 700px;
-  margin-left: 100px;
-  position: absolute;
-  top: 0px;
-  left: 550px;
-  font-size: 12px;
-  line-height: 200%;
-}
-/* line 224, assets\less\style.less */
-body .wrap .pro-info .title {
-  text-align: center;
-  position: relative;
-  margin-bottom: 30px;
-}
-/* line 228, assets\less\style.less */
-body .wrap .pro-info .title h4 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-  margin-top: 50px;
-}
-/* line 234, assets\less\style.less */
-body .wrap .pro-info .title span {
-  display: block;
-}
-/* line 237, assets\less\style.less */
-body .wrap .pro-info .title img {
-  padding: 10px;
-  width: 20px;
-}
-/* line 241, assets\less\style.less */
-body .wrap .pro-info .title span.line:before {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 815px;
-}
-/* line 251, assets\less\style.less */
-body .wrap .pro-info .title span.line:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 985px;
-}
-/* line 262, assets\less\style.less */
-body .wrap .pro-info .pi {
-  position: relative;
-  background-image: url('../images/main/pro-info1.png');
-  background-repeat: repeat;
-  background-size: 50%;
-  height: 400px;
-}
-/* line 268, assets\less\style.less */
-body .wrap .pro-info .pi ul {
-  width: 100%;
-  height: 100%;
-}
-/* line 271, assets\less\style.less */
-body .wrap .pro-info .pi ul li {
-  width: 25%;
-  float: left;
-}
-/* line 275, assets\less\style.less */
-body .wrap .pro-info .pi ul .ve {
-  height: 400px;
-  background-color: rgba(44, 239, 67, 0.3);
-  position: absolute;
-  top: 0px;
-}
-/* line 281, assets\less\style.less */
-body .wrap .pro-info .pi ul .fr {
-  height: 400px;
-  background-color: rgba(255, 245, 104, 0.3);
-  position: absolute;
-  top: 0px;
-  left: 25%;
-}
-/* line 288, assets\less\style.less */
-body .wrap .pro-info .pi ul .si {
-  height: 400px;
-  background-color: rgba(244, 111, 38, 0.3);
-  position: absolute;
-  top: 0px;
-  left: 50%;
-}
-/* line 295, assets\less\style.less */
-body .wrap .pro-info .pi ul .pr {
-  height: 400px;
-  background-color: rgba(137, 44, 225, 0.3);
-  position: absolute;
-  top: 0px;
-  left: 75%;
-}
-/* line 304, assets\less\style.less */
-body .wrap .pro-info .pro-sub {
-  width: 100%;
-  height: 700px;
-  overflow: hidden;
-}
-/* line 308, assets\less\style.less */
-body .wrap .pro-info .pro-sub .title {
-  text-align: center;
-  position: relative;
-  margin-bottom: 30px;
-}
-/* line 312, assets\less\style.less */
-body .wrap .pro-info .pro-sub .title h4 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-  margin-top: 50px;
-}
-/* line 318, assets\less\style.less */
-body .wrap .pro-info .pro-sub .title span {
-  display: block;
-}
-/* line 321, assets\less\style.less */
-body .wrap .pro-info .pro-sub .title img {
-  padding: 10px;
-  width: 20px;
-}
-/* line 325, assets\less\style.less */
-body .wrap .pro-info .pro-sub .title span.line:before {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 815px;
-}
-/* line 335, assets\less\style.less */
-body .wrap .pro-info .pro-sub .title span.line:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 985px;
-}
-/* line 346, assets\less\style.less */
-body .wrap .pro-info .pro-sub .ps-top {
-  width: 800px;
-}
-/* line 348, assets\less\style.less */
-body .wrap .pro-info .pro-sub .ps-top img {
-  width: 100%;
-  margin: 30px 30px 30px 100px;
-  float: left;
-}
-/* line 357, assets\less\style.less */
-body .wrap .pro-info .pro-sub .ps-sub ul li {
-  width: 15%;
-  float: left;
-  margin: 20px 10px 0 0;
-  padding: 10px;
-}
-/* line 362, assets\less\style.less */
-body .wrap .pro-info .pro-sub .ps-sub ul li img {
-  width: 100%;
-  height: 200px;
-}
-/* line 366, assets\less\style.less */
-body .wrap .pro-info .pro-sub .ps-sub ul li span {
-  display: block;
-  width: 300px;
-  text-align: center;
-  clear: left;
-  text-transform: capitalize;
-}
-/* line 379, assets\less\style.less */
-body .wrap .recipe {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  top: 50px;
-}
-/* line 384, assets\less\style.less */
-body .wrap .recipe .title {
-  text-align: center;
-  position: relative;
-  margin-bottom: 50px;
-}
-/* line 388, assets\less\style.less */
-body .wrap .recipe .title h4 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-  margin-top: 50px;
-}
-/* line 394, assets\less\style.less */
-body .wrap .recipe .title span {
-  display: block;
-}
-/* line 397, assets\less\style.less */
-body .wrap .recipe .title img {
-  padding: 10px;
-  width: 20px;
-}
-/* line 401, assets\less\style.less */
-body .wrap .recipe .title span.line:before {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 815px;
-}
-/* line 411, assets\less\style.less */
-body .wrap .recipe .title span.line:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 74px;
-  left: 985px;
-}
-/* line 422, assets\less\style.less */
-body .wrap .recipe .rec_box {
-  margin: auto;
-  overflow: hidden;
-}
-/* line 425, assets\less\style.less */
-body .wrap .recipe .rec_box .rb_left {
-  width: 30%;
-  height: 28%;
-  margin-left: 40px;
-}
-/* line 429, assets\less\style.less */
-body .wrap .recipe .rec_box .rb_left img {
-  width: 100%;
-  float: left;
-  margin-bottom: 20px;
-}
-/* line 436, assets\less\style.less */
-body .wrap .recipe .rec_box .rb_right li {
-  width: 13.2%;
-  height: 400px;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  top: 70px;
-  left: 145px;
-  margin-right: 10px;
-  z-index: 1;
-}
-/* line 446, assets\less\style.less */
-body .wrap .recipe .rec_box .rb_right li img {
-  position: absolute;
-  top: -10px;
-  left: -225px;
-}
-/* line 453, assets\less\style.less */
-body .wrap .recipe .rec_box .rb_sub {
-  width: 50%;
-  height: 380px;
-  background-color: #F36953;
-  position: relative;
-  top: 120px;
-  right: -46%;
-  z-index: 0;
-}
-/* line 466, assets\less\style.less */
-body .wrap .com {
-  overflow: hidden;
-  background-image: url('../images/main/com_re.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-/* line 472, assets\less\style.less */
-body .wrap .com h4 {
-  text-transform: uppercase;
-  font-size: 24px;
-  color: #FFF;
-  position: absolute;
-  top: 150px;
-  left: 370px;
-}
-/* line 480, assets\less\style.less */
-body .wrap .com .com_sub {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-/* line 484, assets\less\style.less */
-body .wrap .com .com_sub ul {
-  width: 1200px;
-  margin: auto;
-}
-/* line 488, assets\less\style.less */
-body .wrap .com .com_sub li {
-  width: 30%;
-  height: 100%;
-  float: left;
-  background-color: rgba(0, 0, 0, 0.1);
-  margin: 200px 10px;
-}
-/* line 494, assets\less\style.less */
-body .wrap .com .com_sub li p {
-  color: #FFF;
-  font-size: 14px;
-  line-height: 25px;
-  margin: auto;
-  width: 300px;
-}
-/* line 501, assets\less\style.less */
-body .wrap .com .com_sub li span[class^="cs_face"] {
-  display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
-  position: relative;
-  top: 15%;
-  left: 5%;
-  margin: 10px;
-}
-/* line 511, assets\less\style.less */
-body .wrap .com .com_sub li .cs_facel {
-  background-image: url('../images/main/facel.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px 200px;
-  background-position: -106px -4px;
-}
-/* line 517, assets\less\style.less */
-body .wrap .com .com_sub li .cs_facem {
-  background-image: url('../images/main/facem.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 522, assets\less\style.less */
-body .wrap .com .com_sub li .cs_faceb {
-  background-image: url('../images/main/faceb.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: -19px 0px;
-}
-/* line 528, assets\less\style.less */
-body .wrap .com .com_sub li .cs_name {
-  color: #FFF;
-  width: 30px;
-  height: 20px;
-  font-size: 14px;
-  position: relative;
-  top: -65px;
-  left: 125px;
-  text-transform: capitalize;
-}
-/* line 539, assets\less\style.less */
-body .wrap .com .com_sub p:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-image: url(../images/footer/qug.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px 10px 0 10px;
-}
-/* line 552, assets\less\style.less */
-body .wrap .blog {
-  background-image: url('../images/main/blog_1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-/* line 557, assets\less\style.less */
-body .wrap .blog .title {
-  text-align: center;
-  position: relative;
-  margin-bottom: 30px;
-  padding-top: 20px;
-}
-/* line 562, assets\less\style.less */
-body .wrap .blog .title h4 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-}
-/* line 567, assets\less\style.less */
-body .wrap .blog .title span {
-  display: block;
-}
-/* line 570, assets\less\style.less */
-body .wrap .blog .title img {
-  padding: 10px;
-  width: 20px;
-}
-/* line 574, assets\less\style.less */
-body .wrap .blog .title span.line:before {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 100px;
-  left: 815px;
-}
-/* line 584, assets\less\style.less */
-body .wrap .blog .title span.line:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: #8FD614;
-  position: absolute;
-  top: 100px;
-  left: 985px;
-}
-/* line 595, assets\less\style.less */
-body .wrap .blog ul {
-  width: 1100px;
-  margin: auto;
-}
-/* line 599, assets\less\style.less */
-body .wrap .blog ul li {
-  width: 31.5%;
-  float: left;
-  margin-left: 18px;
-}
-/* line 603, assets\less\style.less */
-body .wrap .blog ul li img {
-  width: 100%;
-  height: 250px;
-}
-/* line 607, assets\less\style.less */
-body .wrap .blog ul li p {
-  width: 300px;
-  margin-top: 5px;
-}
-/* line 611, assets\less\style.less */
-body .wrap .blog ul li .date {
-  font-weight: bold;
-  color: grey;
-  position: relative;
-  margin: 20px 0;
-  text-transform: capitalize;
-}
-/* line 618, assets\less\style.less */
-body .wrap .blog ul li .b_title {
-  font-weight: bold;
-  margin: 10px 0;
-  font-size: 20px;
-}
-/* line 623, assets\less\style.less */
-body .wrap .blog ul li .read {
-  font-weight: bold;
-  color: #546A79;
-  margin-top: 10px;
-}
-/* line 628, assets\less\style.less */
-body .wrap .blog ul li p.date:after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  display: block;
-  position: absolute;
-  top: 5%;
-  right: 10%;
-  background-image: url('../images/footer/chat.png');
-  background-repeat: no-repeat;
-}
-/* line 639, assets\less\style.less */
-body .wrap .blog ul li p.date:before {
-  content: "5";
-  width: 20px;
-  height: 20px;
-  display: block;
-  position: absolute;
-  top: -2px;
-  right: 8px;
-}
-/* line 649, assets\less\style.less */
-body .wrap .blog ul li p.read:after {
-  content: "";
-  width: 15px;
-  height: 15px;
-  display: block;
-  margin-top: 10px;
-  background-image: url('../images/footer/plus.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  top: -26px;
-  left: 85px;
+  animation: tomato.1s infinite;
+  transition: 1s;
+}
+@keyframes line {
+  /* line 32, assets\less\common.less */
+  0% {
+    left: 0px;
+  }
+  /* line 33, assets\less\common.less */
+  100% {
+    left: 20px;
+  }
 }
 /* line 1, assets\less\footer.less */
 .footer {
@@ -4033,4 +3318,827 @@ body .wrap .blog ul li p.read:after {
     font-size: 14px;
     margin-bottom: 10px;
   }
+}
+/* line 1, assets\less\style.less */
+body {
+  width: 100%;
+  height: 100%;
+}
+/* line 5, assets\less\style.less */
+body .wrap {
+  width: auto;
+  height: auto;
+}
+/* line 9, assets\less\style.less */
+body .wrap .main {
+  height: 970px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 17, assets\less\style.less */
+body .wrap .main img {
+  width: 100%;
+  transition: 1s;
+}
+/* line 20, assets\less\style.less */
+body .wrap .main img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1) rotate(3deg);
+}
+/* line 25, assets\less\style.less */
+body .wrap .main p {
+  width: 350px;
+  margin: auto;
+  height: 150px;
+  font-size: 48px;
+  text-transform: uppercase;
+  position: relative;
+  top: 40%;
+  z-index: 1;
+  text-align: center;
+  padding: 214px 0;
+}
+/* line 36, assets\less\style.less */
+body .wrap .main p span {
+  border: 10px #8fd614 solid;
+  display: inline-block;
+  padding: 10px;
+  color: #FFF;
+}
+/* line 45, assets\less\style.less */
+body .wrap .second ul {
+  height: 300px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+/* line 50, assets\less\style.less */
+body .wrap .second ul li[class^="s-sub"] {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+/* line 55, assets\less\style.less */
+body .wrap .second ul li[class^="s-sub"] img {
+  width: 90%;
+  height: 90%;
+}
+/* line 61, assets\less\style.less */
+body .wrap .second ul span[class^="line_"]:nth-child(odd) {
+  background-color: #f00;
+  height: 5px;
+  display: inline-block;
+}
+/* line 68, assets\less\style.less */
+body .wrap .second ul span[class^="line_"]:nth-child(even) {
+  background-color: #f00;
+  width: 5px;
+  display: inline-block;
+}
+/* line 74, assets\less\style.less */
+body .wrap .second ul li:hover .line_f {
+  transition: 0.5s;
+  width: 90%;
+  background-color: tomato;
+}
+/* line 79, assets\less\style.less */
+body .wrap .second ul li:hover .line_t {
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  height: 90%;
+  background-color: tomato;
+}
+/* line 85, assets\less\style.less */
+body .wrap .second ul li:hover .line_th {
+  transition: 0.5s;
+  transition-delay: 1s;
+  width: 90%;
+  background-color: tomato;
+}
+/* line 91, assets\less\style.less */
+body .wrap .second ul li:hover .line_fo {
+  transition: 0.5s;
+  transition-delay: 1.5s;
+  height: 90%;
+  background-color: tomato;
+}
+/* line 98, assets\less\style.less */
+body .wrap .second ul .line_f {
+  position: absolute;
+  top: 1px;
+  left: 24px;
+  width: 0%;
+}
+/* line 104, assets\less\style.less */
+body .wrap .second ul .line_t {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  height: 0%;
+}
+/* line 110, assets\less\style.less */
+body .wrap .second ul .line_th {
+  position: absolute;
+  right: 26px;
+  bottom: 28px;
+  width: 0%;
+}
+/* line 116, assets\less\style.less */
+body .wrap .second ul .line_fo {
+  position: absolute;
+  bottom: 28px;
+  left: 20px;
+  height: 0%;
+}
+/* line 122, assets\less\style.less */
+body .wrap .second ul .s-sub1 {
+  position: relative;
+  overflow: hidden;
+}
+/* line 126, assets\less\style.less */
+body .wrap .second ul .s-sub1 .s_ve {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  text-transform: uppercase;
+}
+/* line 136, assets\less\style.less */
+body .wrap .second ul li:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+  position: relative;
+}
+/* line 142, assets\less\style.less */
+body .wrap .second ul .s-sub2 {
+  position: relative;
+}
+/* line 144, assets\less\style.less */
+body .wrap .second ul .s-sub2 .s_fr {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+/* line 154, assets\less\style.less */
+body .wrap .second ul .s-sub3 {
+  position: relative;
+}
+/* line 156, assets\less\style.less */
+body .wrap .second ul .s-sub3 .s_si {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+}
+/* line 166, assets\less\style.less */
+body .wrap .second ul .s-sub4 {
+  position: relative;
+}
+/* line 168, assets\less\style.less */
+body .wrap .second ul .s-sub4 .s_pr {
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+}
+/* line 180, assets\less\style.less */
+body .wrap .third ul {
+  background-color: #000;
+  height: 508px;
+}
+/* line 183, assets\less\style.less */
+body .wrap .third ul li {
+  width: 40%;
+  float: left;
+}
+/* line 186, assets\less\style.less */
+body .wrap .third ul li img {
+  width: 100%;
+  float: left;
+}
+/* line 190, assets\less\style.less */
+body .wrap .third ul li p {
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+/* line 195, assets\less\style.less */
+body .wrap .third ul li p:first-child {
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+}
+/* line 200, assets\less\style.less */
+body .wrap .third ul li p:last-child {
+  font-size: 24px;
+  text-align: center;
+  color: #FFF;
+  display: inline-block;
+  margin-top: 30px;
+}
+/* line 210, assets\less\style.less */
+body .wrap .farm-info {
+  height: 700px;
+  position: relative;
+}
+/* line 213, assets\less\style.less */
+body .wrap .farm-info .title {
+  text-align: center;
+}
+/* line 215, assets\less\style.less */
+body .wrap .farm-info .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 221, assets\less\style.less */
+body .wrap .farm-info .title span {
+  display: block;
+}
+/* line 224, assets\less\style.less */
+body .wrap .farm-info .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 229, assets\less\style.less */
+body .wrap .farm-info .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 239, assets\less\style.less */
+body .wrap .farm-info .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 251, assets\less\style.less */
+body .wrap .farm-info .box {
+  background-color: #4A210B;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+/* line 258, assets\less\style.less */
+body .wrap .farm-info .box .fi_top {
+  width: 100%;
+}
+/* line 260, assets\less\style.less */
+body .wrap .farm-info .box .fi_top img {
+  width: 160%;
+  position: absolute;
+  top: -150px;
+  left: -245px;
+}
+/* line 267, assets\less\style.less */
+body .wrap .farm-info .box .fi_left {
+  width: 100%;
+}
+/* line 269, assets\less\style.less */
+body .wrap .farm-info .box .fi_left img {
+  width: 170%;
+  position: absolute;
+  top: 165px;
+  left: -210px;
+}
+/* line 276, assets\less\style.less */
+body .wrap .farm-info .box .fi_right {
+  width: 100%;
+}
+/* line 278, assets\less\style.less */
+body .wrap .farm-info .box .fi_right img {
+  width: 150%;
+  position: absolute;
+  top: -55px;
+  left: 170px;
+}
+/* line 286, assets\less\style.less */
+body .wrap .farm-info p {
+  display: inline-block;
+  width: 700px;
+  margin-left: 100px;
+  position: absolute;
+  top: 0px;
+  left: 550px;
+  font-size: 12px;
+  line-height: 200%;
+}
+/* line 298, assets\less\style.less */
+body .wrap .pro-info .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 302, assets\less\style.less */
+body .wrap .pro-info .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 308, assets\less\style.less */
+body .wrap .pro-info .title span {
+  display: block;
+}
+/* line 311, assets\less\style.less */
+body .wrap .pro-info .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 315, assets\less\style.less */
+body .wrap .pro-info .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 325, assets\less\style.less */
+body .wrap .pro-info .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 336, assets\less\style.less */
+body .wrap .pro-info .pi {
+  position: relative;
+  background-image: url('../images/main/pro-info1.png');
+  background-repeat: repeat;
+  background-size: 50%;
+  height: 400px;
+}
+/* line 342, assets\less\style.less */
+body .wrap .pro-info .pi ul {
+  width: 100%;
+  height: 100%;
+}
+/* line 345, assets\less\style.less */
+body .wrap .pro-info .pi ul li {
+  width: 25%;
+  float: left;
+}
+/* line 349, assets\less\style.less */
+body .wrap .pro-info .pi ul .ve {
+  height: 400px;
+  background-color: rgba(44, 239, 67, 0.3);
+  position: absolute;
+  top: 0px;
+}
+/* line 355, assets\less\style.less */
+body .wrap .pro-info .pi ul .fr {
+  height: 400px;
+  background-color: rgba(255, 245, 104, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 25%;
+}
+/* line 362, assets\less\style.less */
+body .wrap .pro-info .pi ul .si {
+  height: 400px;
+  background-color: rgba(244, 111, 38, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+/* line 369, assets\less\style.less */
+body .wrap .pro-info .pi ul .pr {
+  height: 400px;
+  background-color: rgba(137, 44, 225, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 75%;
+}
+/* line 378, assets\less\style.less */
+body .wrap .pro-info .pro-sub {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+/* line 382, assets\less\style.less */
+body .wrap .pro-info .pro-sub .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 386, assets\less\style.less */
+body .wrap .pro-info .pro-sub .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 392, assets\less\style.less */
+body .wrap .pro-info .pro-sub .title span {
+  display: block;
+}
+/* line 395, assets\less\style.less */
+body .wrap .pro-info .pro-sub .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 399, assets\less\style.less */
+body .wrap .pro-info .pro-sub .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 409, assets\less\style.less */
+body .wrap .pro-info .pro-sub .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 420, assets\less\style.less */
+body .wrap .pro-info .pro-sub .ps-top {
+  width: 800px;
+}
+/* line 422, assets\less\style.less */
+body .wrap .pro-info .pro-sub .ps-top img {
+  width: 100%;
+  margin: 30px 30px 30px 100px;
+  float: left;
+}
+/* line 431, assets\less\style.less */
+body .wrap .pro-info .pro-sub .ps-sub ul li {
+  width: 15%;
+  float: left;
+  margin: 20px 10px 0 0;
+  padding: 10px;
+}
+/* line 436, assets\less\style.less */
+body .wrap .pro-info .pro-sub .ps-sub ul li img {
+  width: 100%;
+  height: 200px;
+}
+/* line 440, assets\less\style.less */
+body .wrap .pro-info .pro-sub .ps-sub ul li span {
+  display: block;
+  width: 300px;
+  text-align: center;
+  clear: left;
+  text-transform: capitalize;
+}
+/* line 453, assets\less\style.less */
+body .wrap .recipe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 50px;
+}
+/* line 458, assets\less\style.less */
+body .wrap .recipe .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+/* line 462, assets\less\style.less */
+body .wrap .recipe .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+/* line 468, assets\less\style.less */
+body .wrap .recipe .title span {
+  display: block;
+}
+/* line 471, assets\less\style.less */
+body .wrap .recipe .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 475, assets\less\style.less */
+body .wrap .recipe .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 815px;
+}
+/* line 485, assets\less\style.less */
+body .wrap .recipe .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 74px;
+  left: 985px;
+}
+/* line 496, assets\less\style.less */
+body .wrap .recipe .rec_box {
+  margin: auto;
+  overflow: hidden;
+}
+/* line 499, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_left {
+  width: 30%;
+  height: 28%;
+  margin-left: 40px;
+}
+/* line 503, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_left img {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 510, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_right li {
+  width: 13.2%;
+  height: 400px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  top: 70px;
+  left: 145px;
+  margin-right: 10px;
+  z-index: 1;
+}
+/* line 520, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_right li img {
+  position: absolute;
+  top: -10px;
+  left: -225px;
+}
+/* line 527, assets\less\style.less */
+body .wrap .recipe .rec_box .rb_sub {
+  width: 50%;
+  height: 380px;
+  background-color: #F36953;
+  position: relative;
+  top: 120px;
+  right: -46%;
+  z-index: 0;
+}
+/* line 540, assets\less\style.less */
+body .wrap .com {
+  overflow: hidden;
+  background-image: url('../images/main/com_re.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 546, assets\less\style.less */
+body .wrap .com h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #FFF;
+  position: absolute;
+  top: 150px;
+  left: 370px;
+}
+/* line 554, assets\less\style.less */
+body .wrap .com .com_sub {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 558, assets\less\style.less */
+body .wrap .com .com_sub ul {
+  width: 1200px;
+  margin: auto;
+}
+/* line 562, assets\less\style.less */
+body .wrap .com .com_sub li {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 200px 10px;
+}
+/* line 568, assets\less\style.less */
+body .wrap .com .com_sub li p {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 25px;
+  margin: auto;
+  width: 300px;
+}
+/* line 575, assets\less\style.less */
+body .wrap .com .com_sub li span[class^="cs_face"] {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  margin: 10px;
+}
+/* line 585, assets\less\style.less */
+body .wrap .com .com_sub li .cs_facel {
+  background-image: url('../images/main/facel.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: -106px -4px;
+}
+/* line 591, assets\less\style.less */
+body .wrap .com .com_sub li .cs_facem {
+  background-image: url('../images/main/facem.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 596, assets\less\style.less */
+body .wrap .com .com_sub li .cs_faceb {
+  background-image: url('../images/main/faceb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -19px 0px;
+}
+/* line 602, assets\less\style.less */
+body .wrap .com .com_sub li .cs_name {
+  color: #FFF;
+  width: 30px;
+  height: 20px;
+  font-size: 14px;
+  position: relative;
+  top: -65px;
+  left: 125px;
+  text-transform: capitalize;
+}
+/* line 613, assets\less\style.less */
+body .wrap .com .com_sub p:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../images/footer/qug.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 10px 0 10px;
+}
+/* line 626, assets\less\style.less */
+body .wrap .blog {
+  background-image: url('../images/main/blog_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+/* line 631, assets\less\style.less */
+body .wrap .blog .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+/* line 636, assets\less\style.less */
+body .wrap .blog .title h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+/* line 641, assets\less\style.less */
+body .wrap .blog .title span {
+  display: block;
+}
+/* line 644, assets\less\style.less */
+body .wrap .blog .title img {
+  padding: 10px;
+  width: 20px;
+}
+/* line 648, assets\less\style.less */
+body .wrap .blog .title span.line:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 100px;
+  left: 815px;
+}
+/* line 658, assets\less\style.less */
+body .wrap .blog .title span.line:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #8FD614;
+  position: absolute;
+  top: 100px;
+  left: 985px;
+}
+/* line 669, assets\less\style.less */
+body .wrap .blog ul {
+  width: 1100px;
+  margin: auto;
+}
+/* line 673, assets\less\style.less */
+body .wrap .blog ul li {
+  width: 31.5%;
+  float: left;
+  margin-left: 18px;
+}
+/* line 677, assets\less\style.less */
+body .wrap .blog ul li img {
+  width: 100%;
+  height: 250px;
+}
+/* line 681, assets\less\style.less */
+body .wrap .blog ul li p {
+  width: 300px;
+  margin-top: 5px;
+}
+/* line 685, assets\less\style.less */
+body .wrap .blog ul li .date {
+  font-weight: bold;
+  color: grey;
+  position: relative;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+/* line 692, assets\less\style.less */
+body .wrap .blog ul li .b_title {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 20px;
+}
+/* line 697, assets\less\style.less */
+body .wrap .blog ul li .read {
+  font-weight: bold;
+  color: #546A79;
+  margin-top: 10px;
+}
+/* line 702, assets\less\style.less */
+body .wrap .blog ul li p.date:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  background-image: url('../images/footer/chat.png');
+  background-repeat: no-repeat;
+}
+/* line 713, assets\less\style.less */
+body .wrap .blog ul li p.date:before {
+  content: "5";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: -2px;
+  right: 8px;
+}
+/* line 723, assets\less\style.less */
+body .wrap .blog ul li p.read:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin-top: 10px;
+  background-image: url('../images/footer/plus.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: -26px;
+  left: 85px;
 }
